@@ -1,0 +1,42 @@
+# Configuration for running this site locally with lando.
+#
+# Setup: Change the PROJECTNAME, PANTHEON_SITE_ID, and PANTHEON_SITE_MACHINE_NAME values below.
+#
+# Additional documentation: https://docs.lando.dev/config/pantheon.html
+
+name: mff
+recipe: drupal9
+config:
+  php: '7.4'
+  site: mff
+  framework: drupal9
+  webroot: web
+  # Turning off solr, varnish, and redis with false will improve startup time.
+  index: false
+  edge: false
+  cache: false
+  # Use xdebug to interface with your IDE.
+  xdebug: true
+
+# Add node and phpmyadmin as services.
+services:
+  myservice:
+    type: php:7.4
+  node:
+    type: node
+    build:
+      - "cd $LANDO_MOUNT && npm it"
+  pma:
+    type: phpmyadmin
+
+# Allows you to run commands like `lando gulp watch` from your command line instead of SSHing into the environment.
+tooling:
+  npm:
+    service: node
+  node:
+    service: node
+  gulp:
+    service: node
+  drush:
+    service: appserver
+    cmd: drush --root=/app/web --uri=https://mff.lndo.site/
