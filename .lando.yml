@@ -1,0 +1,16 @@
+name: m-family-farm
+recipe: drupal9
+config:
+  xdebug: true
+  via: nginx
+  database: mariadb
+  webroot: web
+services:
+  appserver:
+    build:
+      - composer install
+tooling:
+  drush:
+    service: appserver
+    env:
+      DRUSH_OPTIONS_URI: "https://m-family-farm.lndo.site"
