@@ -1,0 +1,39 @@
+.page-wrapper .drd-widget td,
+.page-wrapper .button a,
+.page-wrapper .gin--dark-mode select {
+  color: #fff !important;
+  text-decoration: none;;
+}
+
+.page-wrapper .button:hover a,
+.page-wrapper .button:hover a:hover,
+.page-wrapper .button a:hover {
+  color: #333 !important;
+}
+
+.gin--dark-mode th {
+  color: var(--colorGinText);
+  background: var(--colorGinItemHover);
+}
+
+.drd-entity-action-form .js-form-item,
+.drd-entity-action-form #edit-actions {
+  display: inline;
+}
+
+.field--name-field-project-notes {
+  padding: 20px;
+  margin-bottom: 25px;
+  background: #fff;
+  border: 1px solid var(--colorGinBorder);
+  border-radius: 6px;
+}
+
+.gin--dark-mode .field--name-field-project-notes {
+  background-color: #333;
+  border: 1px solid var(--colorGinBorder);
+}
+
+.drd-dashboard #block-gin-content > div > div:nth-child(1), .drd-dashboard  #block-gin-content > div > div:nth-child(2), .drd-dashboard  #block-gin-content > div > div:nth-child(10) {display:none; /* Hide unneeded help blocks from the main drd-dashboard page at /drd */}
+
+.toolbar-icon-drd-main:before {background:url('/sites/default/files/favicon.png')!important;}
