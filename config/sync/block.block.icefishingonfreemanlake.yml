@@ -1,0 +1,25 @@
+uuid: b537a62c-6764-482e-9341-2dc2b21f4be0
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:b3c76fb6-7fa8-4eec-be44-4cd5a206c13d'
+  module:
+    - block_content
+  theme:
+    - openy_carnation
+id: icefishingonfreemanlake
+theme: openy_carnation
+region: footer_mail
+weight: 0
+provider: null
+plugin: 'block_content:b3c76fb6-7fa8-4eec-be44-4cd5a206c13d'
+settings:
+  id: 'block_content:b3c76fb6-7fa8-4eec-be44-4cd5a206c13d'
+  label: 'Ice Fishing on Freeman Lake'
+  provider: block_content
+  label_display: visible
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }
