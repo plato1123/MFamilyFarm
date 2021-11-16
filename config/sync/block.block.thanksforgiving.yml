@@ -1,0 +1,25 @@
+uuid: d32742ec-f58e-4d18-ae57-2cd126dc6b54
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:e7b8dc2d-4565-4b5c-902a-cee4801a1c3f'
+  module:
+    - block_content
+  theme:
+    - openy_carnation
+id: thanksforgiving
+theme: openy_carnation
+region: footer_social
+weight: 0
+provider: null
+plugin: 'block_content:e7b8dc2d-4565-4b5c-902a-cee4801a1c3f'
+settings:
+  id: 'block_content:e7b8dc2d-4565-4b5c-902a-cee4801a1c3f'
+  label: 'Thanks for giving'
+  provider: block_content
+  label_display: visible
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }
