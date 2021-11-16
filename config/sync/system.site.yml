@@ -1,14 +1,14 @@
-uuid: dbbb6478-64e6-4628-a9cd-7ebe1cd9d905
-name: Drupal
-mail: ''
+uuid: fb8b8ed0-3b14-4288-b4e2-3c618681b0c2
+name: 'Drupal 9 Nexus'
+mail: plato1123@gmail.com
 slogan: ''
 page:
   403: ''
   404: ''
-  front: /user/login
+  front: /node
 admin_compact_mode: false
 weight_select_max: 100
 langcode: en
 default_langcode: en
 _core:
-  default_config_hash: yXadRE77Va-G6dxhd2kPYapAvbnSvTF6hO4oXiOEynI
+  default_config_hash: yTxtFqBHnEWxQswuWvkjE8mKw2t8oKuCL1q8KnfHuGE
