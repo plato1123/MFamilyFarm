@@ -74,6 +74,12 @@
             "DrupalProject\\composer\\ScriptHandler::createRequiredFiles"
         ]
     },
+    "autoload": {
+        "classmap": [
+            "scripts/composer/ScriptHandler.php"
+        ],
+        "files": ["load.environment.php"]
+    },
     "extra": {
         "composer-exit-on-patch-failure": true,
         "patchLevel": {
