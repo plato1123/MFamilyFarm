@@ -1,7 +1,7 @@
 {
-  "name": "Carnation",
+  "name": "MFF",
   "version": "1.0.0",
-  "description": "Front-end package management for the Open Y carnation theme.",
+  "description": "Front-end package management for the open mff theme based on Open Y carnation.",
   "main": "index.js",
   "license": "MIT",
   "dependencies": {

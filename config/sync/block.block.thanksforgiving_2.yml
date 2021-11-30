@@ -1,0 +1,25 @@
+uuid: 5e01a097-5e45-4806-960f-8a32b7bd2c9e
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:e7b8dc2d-4565-4b5c-902a-cee4801a1c3f'
+  module:
+    - block_content
+  theme:
+    - open_mff
+id: thanksforgiving_2
+theme: open_mff
+region: footer_mail
+weight: 0
+provider: null
+plugin: 'block_content:e7b8dc2d-4565-4b5c-902a-cee4801a1c3f'
+settings:
+  id: 'block_content:e7b8dc2d-4565-4b5c-902a-cee4801a1c3f'
+  label: 'Thanks for Giving'
+  provider: block_content
+  label_display: visible
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

@@ -1,0 +1,25 @@
+uuid: a212400a-878b-4ebf-a78c-13ff5da165b0
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:b3c76fb6-7fa8-4eec-be44-4cd5a206c13d'
+  module:
+    - block_content
+  theme:
+    - open_mff
+id: icefishingonfreemanlake_2
+theme: open_mff
+region: footer_tel
+weight: 0
+provider: null
+plugin: 'block_content:b3c76fb6-7fa8-4eec-be44-4cd5a206c13d'
+settings:
+  id: 'block_content:b3c76fb6-7fa8-4eec-be44-4cd5a206c13d'
+  label: 'Ice Fishing on Freeman Lake'
+  provider: block_content
+  label_display: visible
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }
