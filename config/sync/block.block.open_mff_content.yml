@@ -1,0 +1,20 @@
+uuid: b701a596-d14f-46e4-8675-39e6a25fdd88
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - open_mff
+id: open_mff_content
+theme: open_mff
+region: content
+weight: -1
+provider: null
+plugin: system_main_block
+settings:
+  id: system_main_block
+  label: 'Main page content'
+  provider: system
+  label_display: '0'
+visibility: {  }

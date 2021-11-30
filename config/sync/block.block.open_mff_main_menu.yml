@@ -1,0 +1,25 @@
+uuid: f7615254-4f38-458c-be3e-709022cfbf7d
+langcode: en
+status: true
+dependencies:
+  config:
+    - system.menu.main
+  module:
+    - system
+  theme:
+    - open_mff
+id: open_mff_main_menu
+theme: open_mff
+region: primary_menu
+weight: 0
+provider: null
+plugin: 'system_menu_block:main'
+settings:
+  id: 'system_menu_block:main'
+  label: 'Main navigation'
+  provider: system
+  label_display: '0'
+  level: 1
+  depth: 4
+  expand_all_items: false
+visibility: {  }

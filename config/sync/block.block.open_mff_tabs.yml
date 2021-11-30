@@ -1,0 +1,20 @@
+uuid: 8e8a0a94-784a-489d-ba51-21d53a7ff753
+langcode: en
+status: true
+dependencies:
+  theme:
+    - open_mff
+id: open_mff_tabs
+theme: open_mff
+region: content
+weight: -2
+provider: null
+plugin: local_tasks_block
+settings:
+  id: local_tasks_block
+  label: Tabs
+  provider: core
+  label_display: '0'
+  primary: true
+  secondary: true
+visibility: {  }

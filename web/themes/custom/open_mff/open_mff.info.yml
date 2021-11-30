@@ -1,6 +1,6 @@
-name: Open Y Carnation
+name: open_mff
 type: theme
-description: 'YMCA brand compliant and customizable theme.'
+description: 'Open MFF'
 package: Open Y
 core_version_requirement: ^8 || ^9
 version: 8.x-1.2
