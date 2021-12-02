@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "c058582958ba124405192c9436bd2167",
+    "content-hash": "2e7086d32ef634a8a85be17663d7fb8e",
     "packages": [
         {
             "name": "asm89/stack-cors",
@@ -3607,7 +3607,8 @@
             "homepage": "https://www.drupal.org/project/openy_carnation",
             "support": {
                 "source": "https://git.drupalcode.org/project/openy_carnation"
-            }
+            },
+            "time": "2021-09-24T07:38:55+00:00"
         },
         {
             "name": "drupal/openy_rose",
@@ -3615,7 +3616,7 @@
             "source": {
                 "type": "git",
                 "url": "https://git.drupalcode.org/project/openy_rose.git",
-                "reference": "335fa5870f3131d3d49aa9d5b2e4da7d620b5bda"
+                "reference": "4ed0738834909abe3715e5fb6f8ebbc32ffb4a78"
             },
             "require": {
                 "drupal/core": "^8 || ^9",
@@ -3627,8 +3628,8 @@
                     "dev-1.0.x": "1.0.x-dev"
                 },
                 "drupal": {
-                    "version": "1.0.2+0-dev",
-                    "datestamp": "1632472027",
+                    "version": "1.0.2+6-dev",
+                    "datestamp": "1637661904",
                     "security-coverage": {
                         "status": "not-covered",
                         "message": "Project has not opted into security advisory coverage!"
@@ -3640,6 +3641,10 @@
                 "GPL-2.0-or-later"
             ],
             "authors": [
+                {
+                    "name": "Open-Y-Distro",
+                    "homepage": "https://www.drupal.org/user/3691415"
+                },
                 {
                     "name": "danylevskyi",
                     "homepage": "https://www.drupal.org/user/322039"
@@ -3661,7 +3666,8 @@
             "homepage": "https://www.drupal.org/project/openy_rose",
             "support": {
                 "source": "https://git.drupalcode.org/project/openy_rose"
-            }
+            },
+            "time": "2021-11-23T10:02:29+00:00"
         },
         {
             "name": "drupal/pathauto",
@@ -12109,5 +12115,5 @@
         "php": "^7.4"
     },
     "platform-dev": [],
-    "plugin-api-version": "2.1.0"
+    "plugin-api-version": "1.1.0"
 }

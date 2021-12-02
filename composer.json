@@ -23,7 +23,7 @@
         "drupal/adminimal_theme": "^1.5",
         "drupal/allowed_formats": "^1.2",
         "drupal/backup_migrate": "^5.0",
-        "drupal/coffee": "^1.0",
+        "drupal/coffee": "^1.2",
         "drupal/core": "^9.0",
         "drupal/core-composer-scaffold": "^9.0.0",
         "drupal/core-project-message": "^9.0.0",
