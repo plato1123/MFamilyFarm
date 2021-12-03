@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "99cebc9f5ab2c6b6a8a96f89ff7b17e3",
+    "content-hash": "f6705f525c3f61e0a9525eaf2a97ad23",
     "packages": [
         {
             "name": "asm89/stack-cors",
@@ -3366,6 +3366,54 @@
             }
         },
         {
+            "name": "drupal/juicebox",
+            "version": "3.0.0-alpha2",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupalcode.org/project/juicebox.git",
+                "reference": "8.x-3.0-alpha2"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://ftp.drupal.org/files/projects/juicebox-8.x-3.0-alpha2.zip",
+                "reference": "8.x-3.0-alpha2",
+                "shasum": "ff73f99e8285c2f8eccfb6b3563a3de1dc17c144"
+            },
+            "require": {
+                "drupal/core": "^8 || ^9"
+            },
+            "type": "drupal-module",
+            "extra": {
+                "drupal": {
+                    "version": "8.x-3.0-alpha2",
+                    "datestamp": "1608186079",
+                    "security-coverage": {
+                        "status": "not-covered",
+                        "message": "Alpha releases are not covered by Drupal security advisories."
+                    }
+                }
+            },
+            "notification-url": "https://packages.drupal.org/8/downloads",
+            "license": [
+                "GPL-2.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "Neslee Canil Pinto",
+                    "homepage": "https://www.drupal.org/user/3580850"
+                },
+                {
+                    "name": "rjacobs",
+                    "homepage": "https://www.drupal.org/user/422459"
+                }
+            ],
+            "description": "Provides an integration between the Juicebox HTML5 responsive gallery library and Drupal.",
+            "homepage": "https://www.drupal.org/project/juicebox",
+            "support": {
+                "source": "https://git.drupalcode.org/project/juicebox"
+            }
+        },
+        {
             "name": "drupal/key",
             "version": "1.15.0",
             "source": {
@@ -3428,6 +3476,72 @@
             "support": {
                 "source": "https://git.drupalcode.org/project/key",
                 "issues": "http://drupal.org/project/key"
+            }
+        },
+        {
+            "name": "drupal/libraries",
+            "version": "3.0.0-beta2",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupalcode.org/project/libraries.git",
+                "reference": "8.x-3.0-beta2"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://ftp.drupal.org/files/projects/libraries-8.x-3.0-beta2.zip",
+                "reference": "8.x-3.0-beta2",
+                "shasum": "6e2ade6754f1406345e35b55cf27006b80349c25"
+            },
+            "require": {
+                "drupal/core": "^8.8 || ^9"
+            },
+            "type": "drupal-module",
+            "extra": {
+                "drupal": {
+                    "version": "8.x-3.0-beta2",
+                    "datestamp": "1635190094",
+                    "security-coverage": {
+                        "status": "not-covered",
+                        "message": "Beta releases are not covered by Drupal security advisories."
+                    }
+                }
+            },
+            "notification-url": "https://packages.drupal.org/8/downloads",
+            "license": [
+                "GPL-2.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "Pol",
+                    "homepage": "https://www.drupal.org/user/47194"
+                },
+                {
+                    "name": "joseph.olstad",
+                    "homepage": "https://www.drupal.org/user/1321830"
+                },
+                {
+                    "name": "podarok",
+                    "homepage": "https://www.drupal.org/user/116002"
+                },
+                {
+                    "name": "rjacobs",
+                    "homepage": "https://www.drupal.org/user/422459"
+                },
+                {
+                    "name": "sun",
+                    "homepage": "https://www.drupal.org/user/54136"
+                },
+                {
+                    "name": "tstoeckler",
+                    "homepage": "https://www.drupal.org/user/107158"
+                }
+            ],
+            "description": "Allows version-dependent and shared usage of external libraries in Drupal.",
+            "homepage": "http://drupal.org/project/libraries",
+            "support": {
+                "source": "http://cgit.drupalcode.org/libraries",
+                "issues": "http://drupal.org/project/issues/libraries",
+                "irc": "irc://irc.freenode.org/drupal-contribute"
             }
         },
         {
@@ -12256,6 +12370,8 @@
     "aliases": [],
     "minimum-stability": "dev",
     "stability-flags": {
+        "drupal/juicebox": 15,
+        "drupal/libraries": 10,
         "drupal/openy_carnation": 20,
         "drupal/openy_rose": 20
     },
