@@ -64,7 +64,6 @@ a.direction-link {
 }
 
 .branch-header {
-
   // branch information
   .branch-info {
     padding: 0;
@@ -101,7 +100,6 @@ a.direction-link {
       }
 
       address {
-
         font-size: 16px;
         margin-bottom: 15px;
         line-height: 1.5;
@@ -253,7 +251,7 @@ a.direction-link {
       position: absolute;
       top: -2px;
       left: 0;
-      content: '\f00c';
+      content: "\f00c";
       font-family: $font-awesome;
     }
   }
@@ -396,7 +394,6 @@ html.js {
 }
 
 .ygs-branch-sessions-form {
-
   > h1 {
     margin: 0 15px 10px;
     font-size: 28px;
@@ -665,7 +662,7 @@ html.js {
     height: auto;
     max-width: 360px;
     text-decoration: none;
-    position: relative
+    position: relative;
   }
 
   .inner {
@@ -784,7 +781,6 @@ html.js {
     }
   }
 }
-
 
 .node--location-content-type.node--view-mode-teaser,
 .node--type-facility.node--view-mode-teaser,
@@ -949,7 +945,8 @@ html.js {
   }
 
   h2 {
-    font-size: 22px;
+    font-size: 40px;
+    color: $dark-blue;
   }
 
   .sidebar-card_h3 {
@@ -1139,8 +1136,10 @@ html.js {
       }
     }
 
-    .field-location-phone, .field-location-fax {
-      a, i {
+    .field-location-phone,
+    .field-location-fax {
+      a,
+      i {
         color: $white;
         font-size: 12px;
         line-height: 15px;
@@ -1231,12 +1230,12 @@ html.js {
         padding: 8px 4px 8px 14px;
         text-shadow: none;
         text-transform: initial;
-        transition: all .1s linear;
+        transition: all 0.1s linear;
         vertical-align: unset;
         white-space: unset;
 
         &::after {
-          content: '\f14d';
+          content: "\f14d";
           font-family: $font-awesome;
           margin-left: 12px;
         }
@@ -1279,7 +1278,6 @@ html.js {
         margin-bottom: 0;
         margin-right: 0;
         margin-top: 0;
-
       }
     }
 
@@ -1361,7 +1359,7 @@ html.js {
 
           text-shadow: none;
           text-transform: initial;
-          transition: all .1s linear;
+          transition: all 0.1s linear;
           vertical-align: unset;
           white-space: unset;
           width: auto;
@@ -1382,14 +1380,14 @@ html.js {
             border-left: unset;
             border-right: 2px solid $white;
             border-top: unset;
-            content: '';
+            content: "";
             display: block;
             height: 8px;
             position: absolute;
             right: 8px;
             top: 50%;
             transform-origin: 50% 0;
-            transition: all .4s ease-in-out;
+            transition: all 0.4s ease-in-out;
             width: 8px;
 
             @include media-breakpoint-up(md) {
@@ -1429,7 +1427,6 @@ html.js {
     margin-right: 15px;
   }
 
-
   .menu-spacer {
     @include media-breakpoint-down(md) {
       height: 0;
@@ -1440,7 +1437,6 @@ html.js {
     width: 100%;
   }
 }
-
 
 .wrapper-field-header-content {
   div:nth-child(1).paragraph--type--branch-contacts-info {
@@ -1457,4 +1453,3 @@ html.js {
     }
   }
 }
-
