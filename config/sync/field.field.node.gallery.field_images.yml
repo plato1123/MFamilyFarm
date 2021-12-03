@@ -1,0 +1,27 @@
+uuid: b943acc3-05d0-4cee-8633-289cfcc90995
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_images
+    - node.type.gallery
+  module:
+    - file
+id: node.gallery.field_images
+field_name: field_images
+entity_type: node
+bundle: gallery
+label: Images
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  file_directory: '[date:custom:Y]-[date:custom:m]'
+  file_extensions: 'jpg png jpeg'
+  max_filesize: 2mb
+  description_field: true
+  handler: 'default:file'
+  handler_settings: {  }
+field_type: file

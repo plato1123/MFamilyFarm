@@ -1,0 +1,57 @@
+uuid: 1ca5b84f-76a8-429e-9ce6-9378f1d1098f
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.gallery.body
+    - field.field.node.gallery.field_images
+    - node.type.gallery
+  module:
+    - juicebox
+    - text
+    - user
+id: node.gallery.default
+targetEntityType: node
+bundle: gallery
+mode: default
+content:
+  body:
+    label: hidden
+    type: text_default
+    weight: 101
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  field_images:
+    weight: 102
+    label: above
+    settings:
+      image_style: juicebox_medium
+      thumb_style: juicebox_square_thumb
+      caption_source: filename
+      title_source: ''
+      jlib_galleryWidth: 100%
+      jlib_galleryHeight: 100%
+      jlib_backgroundColor: '#222222'
+      jlib_textColor: 'rgba(255,255,255,1)'
+      jlib_thumbFrameColor: 'rgba(255,255,255,.5)'
+      jlib_showOpenButton: true
+      jlib_showExpandButton: true
+      jlib_showThumbsButton: true
+      manual_config: ''
+      incompatible_file_action: show_icon_and_link
+      linkurl_source: ''
+      linkurl_target: _blank
+      custom_parent_classes: ''
+      jlib_useFullscreenExpand: '0'
+      jlib_useThumbDots: false
+      apply_markup_filter: true
+    third_party_settings: {  }
+    type: juicebox_formatter
+    region: content
+  links:
+    weight: 100
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+hidden: {  }
