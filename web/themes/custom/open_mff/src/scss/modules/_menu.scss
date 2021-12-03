@@ -1,5 +1,5 @@
 // primary nav (Y Logo)
-.menu-item-home  {
+.menu-item-home {
   margin-left: 20px;
   display: none;
   max-width: 150px;
@@ -14,6 +14,22 @@
 }
 
 .desktop-menu {
+  background: url(/themes/custom/open_mff/dist/img/log-cabin-sm.png) #1e1e5d 0 0 no-repeat;
+  .nav-global {
+    /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#1e5799+0,7db9e8+100&0.3+0,0+100;Blue+to+Transparent */
+    background: -moz-linear-gradient(-45deg, rgba(30, 87, 153, 0.3) 0%, rgba(125, 185, 232, 0) 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(
+      -45deg,
+      rgba(30, 87, 153, 0.3) 0%,
+      rgba(125, 185, 232, 0) 100%
+    ); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(
+      135deg,
+      rgba(30, 87, 153, 0.3) 0%,
+      rgba(125, 185, 232, 0) 100%
+    ); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4d1e5799', endColorstr='#007db9e8',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+  }
   .page-head__top-menu {
     .col-md > div {
       align-items: center;
@@ -207,12 +223,10 @@
       }
     }
   }
-
 }
 
 // pages without a banner (ex. user account page)
 .without-banner {
-
   .banner--grey {
     .banner-cta {
       padding-top: 0;
@@ -220,7 +234,7 @@
   }
 
   .top-navs:not(.affix),
-  .top-navs, {
+  .top-navs {
     background-color: $gray-700;
 
     div.page-head__main-menu {
@@ -247,7 +261,8 @@
     margin-top: 30px;
   }
 
-  main, .viewport {
+  main,
+  .viewport {
     @include media-breakpoint-up(lg) {
       margin-top: 135px;
     }
@@ -261,7 +276,7 @@
 
   // change navbar background colours when scrolling
   .top-navs {
-    background-color: rgba($primary, .8);
+    background-color: rgba($primary, 0.8);
     transition: background-color 0.5s ease;
 
     @include media-breakpoint-up(lg) {

@@ -24,11 +24,11 @@ content:
     region: content
   field_images:
     weight: 102
-    label: above
+    label: hidden
     settings:
-      image_style: juicebox_medium
+      image_style: juicebox_small
       thumb_style: juicebox_square_thumb
-      caption_source: filename
+      caption_source: ''
       title_source: ''
       jlib_galleryWidth: 100%
       jlib_galleryHeight: 100%
@@ -38,14 +38,14 @@ content:
       jlib_showOpenButton: true
       jlib_showExpandButton: true
       jlib_showThumbsButton: true
+      jlib_useThumbDots: false
+      jlib_useFullscreenExpand: '0'
       manual_config: ''
-      incompatible_file_action: show_icon_and_link
+      custom_parent_classes: ''
+      apply_markup_filter: true
       linkurl_source: ''
       linkurl_target: _blank
-      custom_parent_classes: ''
-      jlib_useFullscreenExpand: '0'
-      jlib_useThumbDots: false
-      apply_markup_filter: true
+      incompatible_file_action: show_icon_and_link
     third_party_settings: {  }
     type: juicebox_formatter
     region: content

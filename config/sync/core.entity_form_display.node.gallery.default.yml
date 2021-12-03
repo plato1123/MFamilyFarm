@@ -5,9 +5,10 @@ dependencies:
   config:
     - field.field.node.gallery.body
     - field.field.node.gallery.field_images
+    - image.style.thumbnail
     - node.type.gallery
   module:
-    - file
+    - image
     - path
     - text
 id: node.gallery.default
@@ -35,8 +36,9 @@ content:
     weight: 122
     settings:
       progress_indicator: throbber
+      preview_image_style: thumbnail
     third_party_settings: {  }
-    type: file_generic
+    type: image_image
     region: content
   path:
     type: path

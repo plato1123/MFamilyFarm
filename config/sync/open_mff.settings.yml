@@ -6,14 +6,14 @@ features:
   favicon: true
   node_user_picture: true
 logo:
-  path: profiles/contrib/openy/themes/openy_themes/open_mff/dist/img/logo-white.png
+  path: ''
   url: ''
   use_default: false
 open_mff_camp_section_logo: {  }
 open_mff_camp_favicon: {  }
 schemas:
   open_mff: 8000
-display_search_form: 1
+display_search_form: 0
 search_query_key: keys
 search_page_alias: search/node
 colored_logo: {  }
