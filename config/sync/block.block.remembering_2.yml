@@ -10,8 +10,8 @@ dependencies:
     - open_mff
 id: remembering_2
 theme: open_mff
-region: footer_info
-weight: 0
+region: footer_mail
+weight: -4
 provider: null
 plugin: 'block_content:f2ab85d1-cc73-45de-a600-5908cb28e0b8'
 settings:

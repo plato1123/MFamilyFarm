@@ -1,0 +1,24 @@
+uuid: a546591d-f096-4196-87c7-40e5c90939ad
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.content_recent
+  module:
+    - views
+  theme:
+    - open_mff
+id: views_block__content_recent_block_1
+theme: open_mff
+region: footer_info
+weight: -5
+provider: null
+plugin: 'views_block:content_recent-block_1'
+settings:
+  id: 'views_block:content_recent-block_1'
+  label: News
+  provider: views
+  label_display: visible
+  views_label: News
+  items_per_page: none
+visibility: {  }
