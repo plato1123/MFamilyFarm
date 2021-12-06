@@ -46,6 +46,7 @@
         "drupal/redirect": "^1.6",
         "drupal/redirect_after_login": "^2.6",
         "drupal/simple_sitemap": "^3.6",
+        "drupal/slick": "^2.4",
         "drupal/smtp": "^1.0",
         "drush/drush": "^10.6",
         "vlucas/phpdotenv": "^4.1",
