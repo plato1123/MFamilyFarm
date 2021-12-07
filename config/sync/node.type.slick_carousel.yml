@@ -1,0 +1,17 @@
+uuid: 75a9ff7e-4263-466a-b18e-b2ace8496eab
+langcode: en
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus: {  }
+    parent: ''
+name: 'Slick Carousel'
+type: slick_carousel
+description: ''
+help: ''
+new_revision: true
+preview_mode: 1
+display_submitted: false

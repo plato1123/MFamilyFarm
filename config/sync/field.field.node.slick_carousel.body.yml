@@ -1,0 +1,23 @@
+uuid: 789ccd5c-d56f-418d-b425-ecb1ab5a1748
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.body
+    - node.type.slick_carousel
+  module:
+    - text
+id: node.slick_carousel.body
+field_name: body
+entity_type: node
+bundle: slick_carousel
+label: Body
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: true
+  required_summary: false
+field_type: text_with_summary
