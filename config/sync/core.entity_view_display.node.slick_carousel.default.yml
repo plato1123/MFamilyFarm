@@ -29,11 +29,11 @@ content:
     settings:
       style: ''
       optionset: default
-      optionset_thumbnail: default
+      optionset_thumbnail: ''
       skin: default
       skin_thumbnail: ''
       image_style: juicebox_large
-      thumbnail_effect: hover
+      thumbnail_effect: ''
       thumbnail_position: top
       media_switch: ''
       thumbnail_style: ''

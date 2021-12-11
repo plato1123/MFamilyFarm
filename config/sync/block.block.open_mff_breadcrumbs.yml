@@ -9,7 +9,7 @@ dependencies:
 id: open_mff_breadcrumbs
 theme: open_mff
 region: header
-weight: 0
+weight: -6
 provider: null
 plugin: system_breadcrumb_block
 settings:

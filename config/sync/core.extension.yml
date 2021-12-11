@@ -7,7 +7,6 @@ module:
   blazy: 0
   block: 0
   block_content: 0
-  bootstrap_simple_carousel: 0
   breakpoint: 0
   captcha: 0
   ckeditor: 0
@@ -15,7 +14,6 @@ module:
   color: 0
   comment: 0
   config: 0
-  contact: 0
   contextual: 0
   ctools: 0
   datetime: 0
