@@ -1,0 +1,7 @@
+uuid: c523c8d2-0910-4f28-a86d-9fdd3167222d
+langcode: en
+status: false
+dependencies: {  }
+formId: node_slick_carousel_form
+captchaType: default
+label: null

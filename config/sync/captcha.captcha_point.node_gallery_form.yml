@@ -1,0 +1,7 @@
+uuid: 9a83b97e-e2a4-462f-93ad-81c89f6392e7
+langcode: en
+status: false
+dependencies: {  }
+formId: node_gallery_form
+captchaType: default
+label: null

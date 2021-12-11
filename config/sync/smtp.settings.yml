@@ -11,9 +11,9 @@ smtp_from: ''
 smtp_fromname: ''
 smtp_client_hostname: ''
 smtp_client_helo: ''
-smtp_allowhtml: ''
+smtp_allowhtml: '0'
 smtp_test_address: ''
-smtp_debugging: false
+smtp_debugging: true
 prev_mail_system: php_mail
 smtp_keepalive: false
 _core:
