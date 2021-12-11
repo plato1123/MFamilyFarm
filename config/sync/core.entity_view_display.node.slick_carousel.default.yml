@@ -5,6 +5,8 @@ dependencies:
   config:
     - field.field.node.slick_carousel.body
     - field.field.node.slick_carousel.field_slick_images
+    - image.style.juicebox_large
+    - image.style.thumbnail
     - node.type.slick_carousel
   module:
     - slick
@@ -26,29 +28,29 @@ content:
     weight: 102
     label: hidden
     settings:
-      style: ''
+      style: nativegrid
       optionset: default
-      optionset_thumbnail: ''
-      skin: ''
+      optionset_thumbnail: default
+      skin: classic
       skin_thumbnail: ''
-      image_style: ''
+      image_style: juicebox_large
       thumbnail_effect: ''
-      thumbnail_position: ''
+      thumbnail_position: over-top
       media_switch: ''
-      thumbnail_style: ''
+      thumbnail_style: thumbnail
       ratio: ''
       grid: ''
       grid_medium: ''
       grid_small: ''
       visible_items: null
-      layout: ''
+      layout: bottom
       thumbnail_caption: ''
+      caption:
+        alt: alt
+        title: '0'
       cache: 0
       current_view_mode: default
       background: false
-      caption:
-        title: '0'
-        alt: '0'
       preserve_keys: false
       use_theme_field: false
       override: false

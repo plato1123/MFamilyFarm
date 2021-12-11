@@ -474,7 +474,9 @@ function open_mff_preprocess_breadcrumb(&$variables) {
 function open_mff_theme_suggestions_slick_alter(array &$suggestions, array $variables, $hook) {
   $types = [];
   foreach ($variables['element']['#items'] as $item) {
+    if (isset($item['slide']['#node'])) { 
     $types[] = 'slick__' . $item['slide']['#node']->bundle();
+    }
   }
   $suggestions += array_unique($types);
 }

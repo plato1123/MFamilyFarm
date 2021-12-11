@@ -27,6 +27,8 @@ module:
   help: 0
   history: 0
   image: 0
+  jquery_ui: 0
+  jquery_ui_tabs: 0
   juicebox: 0
   libraries: 0
   link: 0
