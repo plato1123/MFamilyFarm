@@ -1,14 +1,16 @@
-uuid: b8ed7506-446a-48b5-be9b-b850a129b868
+uuid: 9dbd865b-0d1c-4222-9c71-b5497e37e5e9
 langcode: en
 status: true
 dependencies: {  }
-id: content_manager
-label: 'Content Manager'
-weight: 3
+id: management_team_member
+label: 'Management Team Member'
+weight: 4
 is_admin: null
 permissions:
   - 'access contextual links'
   - 'access media overview'
+  - 'administer comment types'
+  - 'administer comments'
   - 'administer media'
   - 'administer media types'
   - 'create audio media'
@@ -35,12 +37,12 @@ permissions:
   - 'edit any remote_video media'
   - 'edit any video media'
   - 'edit own audio media'
+  - 'edit own comments'
   - 'edit own document media'
   - 'edit own image media'
   - 'edit own remote_video media'
   - 'edit own video media'
   - 'update any media'
   - 'update media'
-  - 'use text format full_html'
   - 'view all media revisions'
   - 'view own unpublished media'

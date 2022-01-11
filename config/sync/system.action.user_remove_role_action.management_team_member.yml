@@ -1,0 +1,14 @@
+uuid: 44dafb41-be73-4dfd-affd-299427eb8b3b
+langcode: en
+status: true
+dependencies:
+  config:
+    - user.role.management_team_member
+  module:
+    - user
+id: user_remove_role_action.management_team_member
+label: 'Remove the Management Team Member role from the selected user(s)'
+type: user
+plugin: user_remove_role_action
+configuration:
+  rid: management_team_member
