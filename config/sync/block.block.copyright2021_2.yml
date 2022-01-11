@@ -1,0 +1,25 @@
+uuid: ec86335f-9c2e-48f1-9989-543b552857b1
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:83b47d9a-1069-464f-8f46-2c88374a011c'
+  module:
+    - block_content
+  theme:
+    - open_mff
+id: copyright2021_2
+theme: open_mff
+region: footer_copyright
+weight: 0
+provider: null
+plugin: 'block_content:83b47d9a-1069-464f-8f46-2c88374a011c'
+settings:
+  id: 'block_content:83b47d9a-1069-464f-8f46-2c88374a011c'
+  label: 'Copyright 2021'
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

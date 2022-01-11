@@ -1,5 +1,7 @@
 favicon:
-  use_default: true
+  use_default: false
+  path: 'public://SeekPng.com_mountain-png_23868.png'
+  mimetype: image/png
 features:
   comment_user_picture: true
   comment_user_verification: true
