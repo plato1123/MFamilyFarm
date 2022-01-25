@@ -7,17 +7,19 @@ dependencies:
 id: typical
 label: Typical
 type: 'canonical_entities:node'
-pattern: '[current-page:title]'
+pattern: '[node:title]'
 selection_criteria:
-  eedb8961-9569-4fa7-927b-88ff1cd21d06:
+  969d7616-fa2b-4e12-82e6-0430db044aef:
     id: node_type
     bundles:
       article: article
+      gallery: gallery
       page: page
+      slick_carousel: slick_carousel
     negate: false
     context_mapping:
       node: node
-    uuid: eedb8961-9569-4fa7-927b-88ff1cd21d06
+    uuid: 969d7616-fa2b-4e12-82e6-0430db044aef
 selection_logic: and
 weight: -5
 relationships: {  }
