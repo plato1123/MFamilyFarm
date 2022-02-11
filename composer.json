@@ -44,7 +44,6 @@
         "drupal/openy_carnation": "1.0.x-dev@dev",
         "drupal/openy_rose": "^1.0",
         "drupal/pathauto": "^1.8",
-        "drupal/php": "^1.1",
         "drupal/real_aes": "^2.3",
         "drupal/recaptcha": "^3.0",
         "drupal/redirect": "^1.6",
