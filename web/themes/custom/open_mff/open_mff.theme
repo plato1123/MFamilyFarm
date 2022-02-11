@@ -314,11 +314,11 @@ function open_mff_preprocess_page_logo(&$variables) {
     if (\Drupal::hasService('openy_loc_camp.camp_service') && $service = \Drupal::service('openy_loc_camp.camp_service')) {
       $is_node_camp_related = $service->nodeHasOrIsCamp($node);
     }
-    $banner_paragraphs = search_node_paragraphs($node, ['gallery','banner','small_banner','banner_fixed'], 'field_header_content');
-    $node_type = $node->getType();
-    if ($node_type == 'program') {
-      $variables['logo_url'] = $variables['colored_logo_url'];
-    }
+    // $banner_paragraphs = search_node_paragraphs($node, ['gallery','banner','small_banner','banner_fixed'], 'field_header_content');
+    // $node_type = $node->getType();
+    // if ($node_type == 'program') {
+    //   $variables['logo_url'] = $variables['colored_logo_url'];
+    // }
   }
 
   if ($is_node_camp_related) {
