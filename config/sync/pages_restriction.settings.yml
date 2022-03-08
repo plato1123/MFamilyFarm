@@ -1,0 +1,19 @@
+keep_parameters: 1
+bypass_role:
+  authenticated: authenticated
+  administrator: administrator
+  content_manager: content_manager
+  management_team_member: management_team_member
+  anonymous: 0
+_core:
+  default_config_hash: yfzP9RGD5wt_vumwsPmVt88nX16QSRbz_w-mrbIuWD4
+pages_restriction: |-
+  /node/10|/node/1
+  /node/9|/node/1
+  /node/8|/node/1
+  /node/7|/node/1
+  /node/6|/node/1
+  /node/5|/node/1
+  /node/4|/node/1
+  /node/3|/node/1
+  /node/2|/node/1
