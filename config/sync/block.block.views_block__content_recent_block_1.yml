@@ -5,6 +5,7 @@ dependencies:
   config:
     - views.view.content_recent
   module:
+    - system
     - views
   theme:
     - open_mff
@@ -21,4 +22,8 @@ settings:
   label_display: visible
   views_label: News
   items_per_page: none
-visibility: {  }
+visibility:
+  request_path:
+    id: request_path
+    pages: /node/10
+    negate: true

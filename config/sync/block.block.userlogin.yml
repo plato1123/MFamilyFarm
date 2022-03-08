@@ -1,0 +1,25 @@
+uuid: 9480ee3c-7684-43a1-87b2-1b789b5fc9a2
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+    - user
+  theme:
+    - open_mff
+id: userlogin
+theme: open_mff
+region: footer_tel
+weight: 0
+provider: null
+plugin: user_login_block
+settings:
+  id: user_login_block
+  label: 'User login'
+  provider: user
+  label_display: visible
+visibility:
+  request_path:
+    id: request_path
+    pages: /node/10
+    negate: false
