@@ -5,6 +5,7 @@ global-styling:
       //use.fontawesome.com/releases/v5.1.0/css/all.css: {type: external}
       dist/css/style.css: {}
   js:
+    dist/themetweaks.js: {}
     dist/main.js: {}
     //cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js: {type: external, minified: true}
     dist/js/open_mff.js: {}
@@ -18,6 +19,7 @@ global-styling:
     dist/js/open_mff_user.js: {}
     dist/js/jquery.matchHeight.min.js: {}
   dependencies:
+    - core/jquery
     - core/jquery.once
     - core/jquery.ui.datepicker
     - core/drupal

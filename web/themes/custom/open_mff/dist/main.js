@@ -10717,7 +10717,8 @@ module.exports = g;
 /***/ (function(module, exports, __webpack_require__) {
 
 var map = {
-	"./index.js": "./src/js/index.js"
+	"./index.js": "./src/js/index.js",
+	"./themetweaks.js": "./src/js/themetweaks.js"
 };
 
 
@@ -10751,8 +10752,39 @@ webpackContext.id = "./src/js sync recursive \\.(js)$/i";
 
 /* WEBPACK VAR INJECTION */(function(global) {if (!global._babelPolyfill) {
   __webpack_require__(/*! @babel/polyfill */ "./node_modules/@babel/polyfill/lib/index.js");
+
+  ;
 }
 /* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./../../node_modules/webpack/buildin/global.js */ "./node_modules/webpack/buildin/global.js")))
+
+/***/ }),
+
+/***/ "./src/js/themetweaks.js":
+/*!*******************************!*\
+  !*** ./src/js/themetweaks.js ***!
+  \*******************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+// (function ($, Drupal) {
+//   Drupal.behaviors.someAbitraryKey = {
+//     attach: function (context, settings) {
+//       // Do something when the page loads.
+//       alert("is our theme tweaking yet?");
+//     }
+//   };
+// }(jQuery, Drupal));
+(function ($, Drupal) {
+  $(window).on('load', function () {
+    Drupal.behaviors.myBehavior = {
+      attach: function (context, settings) {
+        $(context).find('.funcolumns').once('.funcolumns').each(function () {
+          $(this).addClass('superfunforus');
+        });
+      }
+    };
+  });
+})(jQuery, Drupal);
 
 /***/ }),
 
