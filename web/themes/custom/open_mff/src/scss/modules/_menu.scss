@@ -362,3 +362,9 @@ h2 {
   overflow: hidden;
   margin-top: -10px;
 }
+
+#toolbar-administration {
+  @media (max-width: 609.98px) {
+    margin-top: -32px; // tweak admin menu placing on mobile if present
+  }
+}
