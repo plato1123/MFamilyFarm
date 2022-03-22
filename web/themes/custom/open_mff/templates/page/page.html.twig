@@ -169,7 +169,11 @@
 
     {{ page.highlighted }}
     {{ page.help }}
-
+    <div class="pre-content">
+      <div class="pre-content-inner">
+        {{ page.pre_content }}
+      </div>
+    </div>
     <main class="clearfix">
         {% block pagecontent %}
           {{ page.content }}

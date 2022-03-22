@@ -14,6 +14,7 @@ regions:
   secondary_menu: User Menu
   top_menu: Mobile User Menu
   mobile_menu: Mobile menu
+  pre_content: Pre Content
   content: Content
   pre_footer: Pre Footer
   footer_info: Footer Info

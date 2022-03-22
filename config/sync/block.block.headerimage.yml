@@ -1,0 +1,25 @@
+uuid: ff4e9ced-ffa5-4cc0-9635-297d668511b2
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:c6907966-86f5-401f-8bf9-185e5a87e7db'
+  module:
+    - block_content
+  theme:
+    - open_mff
+id: headerimage
+theme: open_mff
+region: pre_content
+weight: 0
+provider: null
+plugin: 'block_content:c6907966-86f5-401f-8bf9-185e5a87e7db'
+settings:
+  id: 'block_content:c6907966-86f5-401f-8bf9-185e5a87e7db'
+  label: 'Pre content header image'
+  label_display: '0'
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

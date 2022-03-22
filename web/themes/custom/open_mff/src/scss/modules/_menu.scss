@@ -284,13 +284,13 @@
   main,
   .viewport {
     @include media-breakpoint-up(lg) {
-      margin-top: 135px;
+      margin-top: 0px;
     }
   }
 
   .viewport {
     @include media-breakpoint-down(md) {
-      margin-top: 75px;
+      margin-top: 0px;
     }
   }
 

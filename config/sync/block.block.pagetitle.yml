@@ -1,0 +1,18 @@
+uuid: f976d940-082c-4eda-8556-1cb50914fcee
+langcode: en
+status: true
+dependencies:
+  theme:
+    - open_mff
+id: pagetitle
+theme: open_mff
+region: pre_content
+weight: 0
+provider: null
+plugin: page_title_block
+settings:
+  id: page_title_block
+  label: 'Page title'
+  label_display: '0'
+  provider: core
+visibility: {  }
