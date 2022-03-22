@@ -11,7 +11,7 @@ dependencies:
 id: open_mff_useraccountmenu
 theme: open_mff
 region: top_menu
-weight: -6
+weight: -8
 provider: null
 plugin: 'system_menu_block:account'
 settings:

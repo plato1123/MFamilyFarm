@@ -13,6 +13,7 @@
   }
 }
 .header-content {
+  box-shadow: 0px 0px 10px #000;
   background: url(/themes/custom/open_mff/dist/img/log-cabin-sm.png) 0 38% no-repeat;
 }
 .desktop-menu {
@@ -240,6 +241,9 @@
 
   .top-navs:not(.affix),
   .top-navs {
+    @media (max-width: 769.98px) {
+      margin-top: 0px;
+    }
     // background-color: $gray-700;
     /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#1963a0+0,0d2642+100 */
     background: rgb(25, 99, 160); /* Old browsers */
@@ -294,6 +298,34 @@
     }
   }
 
+  .viewport {
+    @media (max-width: 1059.98px) {
+      margin-top: -60px;
+    }
+
+    // @media (max-width: 575.98px) {
+    //   // top: 13px;
+    //   // left: 0px;
+    // }
+
+    // @media (min-width: 576px) and (max-width: 767.98px) {
+    //   // top: 22px;
+    //   // left: 7px;
+    // }
+
+    // @media (min-width: 768px) and (max-width: 991.98px) {
+    //   // top: 20px;
+    //   // left: 5px;
+    // }
+    // @media (min-width: 992px) and (max-width: 1199.98px) {
+    //   // margin-top: -60px;
+    // }
+    // @media (min-width: 1200px) {
+    //   // top: 40px;
+    //   // left: 22px;
+    // }
+  }
+
   // change navbar background colours when scrolling
   .top-navs {
     background-color: rgba($primary, 0.8);
@@ -322,4 +354,11 @@
       background-color: $primary;
     }
   }
+}
+
+h2 {
+  // hide redundant h2 tag  //  consider doing in node.html.twig instead
+  max-height: 0px;
+  overflow: hidden;
+  margin-top: -10px;
 }

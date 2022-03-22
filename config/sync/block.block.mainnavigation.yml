@@ -1,4 +1,4 @@
-uuid: f7615254-4f38-458c-be3e-709022cfbf7d
+uuid: 6e481510-0cf6-4b1d-a7b5-f094debacb98
 langcode: en
 status: true
 dependencies:
@@ -8,18 +8,18 @@ dependencies:
     - system
   theme:
     - open_mff
-id: open_mff_main_menu
+id: mainnavigation
 theme: open_mff
-region: primary_menu
-weight: -8
+region: mobile_menu
+weight: -7
 provider: null
 plugin: 'system_menu_block:main'
 settings:
   id: 'system_menu_block:main'
   label: 'Main navigation'
-  label_display: '0'
+  label_display: visible
   provider: system
   level: 1
-  depth: 4
-  expand_all_items: true
+  depth: 0
+  expand_all_items: false
 visibility: {  }

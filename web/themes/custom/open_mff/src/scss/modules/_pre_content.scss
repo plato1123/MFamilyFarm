@@ -1,19 +1,62 @@
-h2 {
-  max-height: 0px;
-  overflow: hidden;
-}
-
 .pre-content {
   margin-top: 115px;
   #block-pagetitle {
     h1 {
       color: $primary-darker;
       span {
+        // sm: 576px,
+        // md: 768px,
+        // lg: 992px,
+        // xl: 1200px
+        // @include media-breakpoint-down(xs) {
+        //   top: 13px;
+        //   left: 0px;
+        // }
+        // @include media-breakpoint-down(sm) {
+        //   top: 15px;
+        // }
+        // @include media-breakpoint-down(md) {
+        //   top: 20px;
+        //   left: 5px;
+        // }
+        // @include media-breakpoint-down(lg) {
+        //   top: 25px;
+        //   left: 10px;
+        // }
+        // @include media-breakpoint-down(xl) {
+        //   top: 30px;
+        //   left: 15px;
+        // }
+
+        @media (max-width: 575.98px) {
+          top: 13px;
+          left: 0px;
+        }
+
+        @media (min-width: 576px) and (max-width: 767.98px) {
+          top: 22px;
+          left: 7px;
+        }
+
+        @media (min-width: 768px) and (max-width: 991.98px) {
+          top: 20px;
+          left: 5px;
+        }
+        @media (min-width: 992px) and (max-width: 1199.98px) {
+          top: 25px;
+          left: 10px;
+        }
+        @media (min-width: 1200px) {
+          top: 40px;
+          left: 22px;
+        }
+
+
         position: relative;
-        top: 20px;
+
         background: rgba(255, 255, 255, 0.6);
         padding: 5px;
-        box-shadow: 0px 0px 10px #5981ab; // animate this with jquery maybe?
+        box-shadow: 0px 0px 0px #5981ab; // animate this with jquery maybe?
       }
     }
     margin-bottom: -61px;

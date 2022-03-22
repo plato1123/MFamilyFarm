@@ -46,6 +46,7 @@ module:
   rdf: 0
   recaptcha: 0
   redirect_after_login: 0
+  responsive_menus: 0
   search: 0
   shortcut: 0
   slick: 0
