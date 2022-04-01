@@ -1,7 +1,0 @@
-login_redirection:
-  anonymous: null
-  authenticated: /node/1
-  administrator: /node/1
-  content_manager: /node/1
-  management_team_member: /node/1
-exclude_urls: ''
