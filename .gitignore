@@ -28,7 +28,7 @@
 /web/sites/default/default.services.pantheon.preproduction.yml
 
 # Ignore compiled theme files.
-/web/themes/custom/*/dist
+# /web/themes/custom/*/dist
 
 # Ignore node modules.
 /node_modules
