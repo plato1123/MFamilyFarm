@@ -16,14 +16,19 @@ bundle: gallery
 mode: default
 content:
   body:
-    label: hidden
     type: text_default
-    weight: 101
+    label: hidden
     settings: {  }
     third_party_settings: {  }
+    weight: 101
+    region: content
+  content_moderation_control:
+    settings: {  }
+    third_party_settings: {  }
+    weight: -20
     region: content
   field_images:
-    weight: 102
+    type: juicebox_formatter
     label: hidden
     settings:
       image_style: juicebox_medium
@@ -38,20 +43,20 @@ content:
       jlib_showOpenButton: true
       jlib_showExpandButton: true
       jlib_showThumbsButton: true
+      jlib_useThumbDots: false
+      jlib_useFullscreenExpand: '0'
       manual_config: ''
-      incompatible_file_action: show_icon_and_link
+      custom_parent_classes: ''
+      apply_markup_filter: true
       linkurl_source: ''
       linkurl_target: _blank
-      custom_parent_classes: ''
-      jlib_useFullscreenExpand: '0'
-      jlib_useThumbDots: false
-      apply_markup_filter: true
+      incompatible_file_action: show_icon_and_link
     third_party_settings: {  }
-    type: juicebox_formatter
+    weight: 102
     region: content
   links:
-    weight: 100
-    region: content
     settings: {  }
     third_party_settings: {  }
+    weight: 100
+    region: content
 hidden: {  }

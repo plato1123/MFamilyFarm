@@ -17,42 +17,45 @@ bundle: slick_carousel
 mode: default
 content:
   body:
-    label: hidden
     type: text_default
-    weight: 101
+    label: hidden
     settings: {  }
     third_party_settings: {  }
+    weight: 101
     region: content
   field_slick_images:
-    weight: 102
+    type: slick_image
     label: hidden
     settings:
-      style: ''
-      optionset: default
-      optionset_thumbnail: ''
-      skin: default
-      skin_thumbnail: ''
-      image_style: juicebox_large
-      thumbnail_effect: ''
-      thumbnail_position: top
-      media_switch: ''
-      thumbnail_style: ''
-      ratio: ''
-      grid: ''
-      grid_medium: ''
-      grid_small: ''
-      visible_items: null
-      layout: bottom
-      thumbnail_caption: ''
       caption:
         alt: alt
         title: '0'
+      optionset: default
+      layout: bottom
+      view_mode: ''
       cache: 0
       current_view_mode: default
+      skin: default
+      fx: ''
+      style: ''
       background: false
-      preserve_keys: false
-      use_theme_field: false
-      override: false
+      box_caption: ''
+      box_caption_custom: ''
+      box_media_style: ''
+      responsive_image_style: ''
+      box_style: ''
+      image_style: juicebox_large
+      media_switch: ''
+      ratio: ''
+      thumbnail_style: ''
+      _uri: ''
+      grid_header: ''
+      grid: ''
+      grid_medium: ''
+      grid_small: ''
+      breakpoints: {  }
+      icon: ''
+      sizes: ''
       overridables:
         arrows: '0'
         autoplay: '0'
@@ -62,26 +65,23 @@ content:
         mouseWheel: '0'
         randomize: '0'
         variableWidth: '0'
+      optionset_thumbnail: ''
+      skin_thumbnail: ''
+      thumbnail_caption: ''
+      thumbnail_effect: ''
+      thumbnail_position: top
+      override: false
       skin_arrows: ''
       skin_dots: ''
-      fx: ''
-      icon: ''
-      view_mode: ''
-      box_caption: ''
-      box_caption_custom: ''
-      box_media_style: ''
-      responsive_image_style: ''
-      box_style: ''
-      _uri: ''
-      breakpoints: {  }
-      sizes: ''
-      grid_header: ''
+      use_theme_field: false
+      preserve_keys: false
+      visible_items: null
     third_party_settings: {  }
-    type: slick_image
+    weight: 102
     region: content
   links:
-    weight: 100
-    region: content
     settings: {  }
     third_party_settings: {  }
+    weight: 100
+    region: content
 hidden: {  }

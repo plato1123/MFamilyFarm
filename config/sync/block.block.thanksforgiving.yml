@@ -17,8 +17,8 @@ plugin: 'block_content:e7b8dc2d-4565-4b5c-902a-cee4801a1c3f'
 settings:
   id: 'block_content:e7b8dc2d-4565-4b5c-902a-cee4801a1c3f'
   label: 'Thanks for giving'
-  provider: block_content
   label_display: visible
+  provider: block_content
   status: true
   info: ''
   view_mode: full

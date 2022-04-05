@@ -1,0 +1,37 @@
+uuid: 695a2714-4281-4f68-aae2-0255e29e69d7
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.directory
+  module:
+    - system
+    - user
+    - views
+  theme:
+    - open_mff
+id: views_block__directory_block_1_2
+theme: open_mff
+region: content
+weight: 0
+provider: null
+plugin: 'views_block:directory-block_1'
+settings:
+  id: 'views_block:directory-block_1'
+  label: ''
+  label_display: visible
+  provider: views
+  views_label: ''
+  items_per_page: none
+visibility:
+  request_path:
+    id: request_path
+    negate: false
+    pages: /node/13
+  user_role:
+    id: user_role
+    negate: false
+    context_mapping:
+      user: '@user.current_user_context:current_user'
+    roles:
+      authenticated: authenticated

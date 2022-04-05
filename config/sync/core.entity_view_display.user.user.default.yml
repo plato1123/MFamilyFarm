@@ -7,6 +7,7 @@ dependencies:
     - field.field.user.user.field_city
     - field.field.user.user.field_first_name
     - field.field.user.user.field_last_name
+    - field.field.user.user.field_note
     - field.field.user.user.field_phone
     - field.field.user.user.field_postal_code
     - field.field.user.user.field_state_abbreviation_
@@ -53,6 +54,13 @@ content:
       link_to_entity: false
     third_party_settings: {  }
     weight: 7
+    region: content
+  field_note:
+    type: basic_string
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 13
     region: content
   field_phone:
     type: string

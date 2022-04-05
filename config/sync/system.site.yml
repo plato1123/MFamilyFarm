@@ -1,3 +1,6 @@
+_core:
+  default_config_hash: yTxtFqBHnEWxQswuWvkjE8mKw2t8oKuCL1q8KnfHuGE
+langcode: en
 uuid: fb8b8ed0-3b14-4288-b4e2-3c618681b0c2
 name: 'Mandigo Family Farm'
 mail: mandigofamily@mandigofamilyfarm.us
@@ -8,7 +11,4 @@ page:
   front: /node/1
 admin_compact_mode: false
 weight_select_max: 100
-langcode: en
 default_langcode: en
-_core:
-  default_config_hash: yTxtFqBHnEWxQswuWvkjE8mKw2t8oKuCL1q8KnfHuGE

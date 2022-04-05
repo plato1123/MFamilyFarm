@@ -17,8 +17,8 @@ plugin: 'block_content:b3c76fb6-7fa8-4eec-be44-4cd5a206c13d'
 settings:
   id: 'block_content:b3c76fb6-7fa8-4eec-be44-4cd5a206c13d'
   label: 'Ice Fishing on Freeman Lake'
-  provider: block_content
   label_display: visible
+  provider: block_content
   status: true
   info: ''
   view_mode: full

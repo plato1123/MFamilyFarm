@@ -11,15 +11,15 @@ pattern: '[node:title]'
 selection_criteria:
   969d7616-fa2b-4e12-82e6-0430db044aef:
     id: node_type
+    negate: false
+    uuid: 969d7616-fa2b-4e12-82e6-0430db044aef
+    context_mapping:
+      node: node
     bundles:
       article: article
       gallery: gallery
       page: page
       slick_carousel: slick_carousel
-    negate: false
-    context_mapping:
-      node: node
-    uuid: 969d7616-fa2b-4e12-82e6-0430db044aef
 selection_logic: and
 weight: -5
 relationships: {  }
