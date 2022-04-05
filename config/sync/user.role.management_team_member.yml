@@ -1,7 +1,18 @@
 uuid: 9dbd865b-0d1c-4222-9c71-b5497e37e5e9
 langcode: en
 status: true
-dependencies: {  }
+dependencies:
+  config:
+    - media.type.audio
+    - media.type.document
+    - media.type.image
+    - media.type.remote_video
+    - media.type.video
+  module:
+    - comment
+    - content_access
+    - contextual
+    - media
 id: management_team_member
 label: 'Management Team Member'
 weight: 4
