@@ -15,11 +15,18 @@ provider: null
 plugin: user_login_block
 settings:
   id: user_login_block
-  label: 'User login'
+  label: 'Please login to continue'
   label_display: visible
   provider: user
 visibility:
   request_path:
     id: request_path
     negate: false
-    pages: /node/10
+    pages: "/node/10\r\n/node/14"
+  user_role:
+    id: user_role
+    negate: false
+    context_mapping:
+      user: '@user.current_user_context:current_user'
+    roles:
+      anonymous: anonymous

@@ -1,0 +1,38 @@
+uuid: af0384d7-7ede-44ce-8fc1-83320c67c6cc
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:a845ee5d-0c05-4432-93ab-3b3120d8ae78'
+  module:
+    - block_content
+    - system
+    - user
+  theme:
+    - open_mff
+id: metaredirecttohome
+theme: open_mff
+region: content
+weight: -8
+provider: null
+plugin: 'block_content:a845ee5d-0c05-4432-93ab-3b3120d8ae78'
+settings:
+  id: 'block_content:a845ee5d-0c05-4432-93ab-3b3120d8ae78'
+  label: 'Meta redirect to Home'
+  label_display: '0'
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  user_role:
+    id: user_role
+    negate: false
+    context_mapping:
+      user: '@user.current_user_context:current_user'
+    roles:
+      authenticated: authenticated
+  request_path:
+    id: request_path
+    negate: false
+    pages: /node/14

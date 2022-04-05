@@ -6,6 +6,7 @@ dependencies:
     - 'block_content:basic:b3c76fb6-7fa8-4eec-be44-4cd5a206c13d'
   module:
     - block_content
+    - system
   theme:
     - open_mff
 id: icefishingonfreemanlake_2
@@ -22,4 +23,8 @@ settings:
   status: true
   info: ''
   view_mode: full
-visibility: {  }
+visibility:
+  request_path:
+    id: request_path
+    negate: true
+    pages: /node/14
