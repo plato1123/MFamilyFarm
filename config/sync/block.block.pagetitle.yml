@@ -7,7 +7,7 @@ dependencies:
 id: pagetitle
 theme: open_mff
 region: pre_content
-weight: 0
+weight: -9
 provider: null
 plugin: page_title_block
 settings:

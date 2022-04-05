@@ -9,7 +9,7 @@ dependencies:
 id: open_mff_content
 theme: open_mff
 region: content
-weight: -4
+weight: -7
 provider: null
 plugin: system_main_block
 settings:

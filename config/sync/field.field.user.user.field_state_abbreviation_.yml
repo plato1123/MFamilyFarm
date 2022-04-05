@@ -1,0 +1,20 @@
+uuid: c2fe375f-294d-4902-ac56-045b75fb6f82
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.user.field_state_abbreviation_
+  module:
+    - user
+id: user.user.field_state_abbreviation_
+field_name: field_state_abbreviation_
+entity_type: user
+bundle: user
+label: 'State (abbreviation)'
+description: 'State or province abbreviation'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

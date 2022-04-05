@@ -1,0 +1,20 @@
+uuid: 5cc9a627-716d-4540-aef5-afa638224264
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.user.field_address_line_1
+  module:
+    - user
+id: user.user.field_address_line_1
+field_name: field_address_line_1
+entity_type: user
+bundle: user
+label: Address
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

@@ -1,0 +1,21 @@
+uuid: b1b7573e-7537-4ce2-bc01-843d22cf503d
+langcode: en
+status: true
+dependencies:
+  module:
+    - user
+id: user.field_address_line_1
+field_name: field_address_line_1
+entity_type: user
+type: string
+settings:
+  max_length: 1023
+  case_sensitive: false
+  is_ascii: false
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

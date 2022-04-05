@@ -4,6 +4,13 @@ status: true
 dependencies:
   config:
     - core.entity_view_mode.user.compact
+    - field.field.user.user.field_address_line_1
+    - field.field.user.user.field_city
+    - field.field.user.user.field_first_name
+    - field.field.user.user.field_last_name
+    - field.field.user.user.field_phone
+    - field.field.user.user.field_postal_code
+    - field.field.user.user.field_state_abbreviation_
     - field.field.user.user.user_picture
     - image.style.thumbnail
   module:
@@ -18,12 +25,19 @@ mode: compact
 content:
   user_picture:
     type: image
+    label: hidden
+    settings:
+      image_link: content
+      image_style: thumbnail
+    third_party_settings: {  }
     weight: 0
     region: content
-    settings:
-      image_style: thumbnail
-      image_link: content
-    third_party_settings: {  }
-    label: hidden
 hidden:
+  field_address_line_1: true
+  field_city: true
+  field_first_name: true
+  field_last_name: true
+  field_phone: true
+  field_postal_code: true
+  field_state_abbreviation_: true
   member_for: true

@@ -1,0 +1,21 @@
+uuid: 193413e6-d58f-4a8a-8f0a-4a5216ec7d3d
+langcode: en
+status: true
+dependencies:
+  module:
+    - user
+id: user.field_state_abbreviation_
+field_name: field_state_abbreviation_
+entity_type: user
+type: string
+settings:
+  max_length: 255
+  case_sensitive: false
+  is_ascii: false
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

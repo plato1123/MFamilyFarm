@@ -11,7 +11,7 @@ dependencies:
 id: headerimage
 theme: open_mff
 region: pre_content
-weight: 0
+weight: -8
 provider: null
 plugin: 'block_content:c6907966-86f5-401f-8bf9-185e5a87e7db'
 settings:

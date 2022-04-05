@@ -7,7 +7,7 @@ dependencies:
 id: open_mff_tabs
 theme: open_mff
 region: content
-weight: -5
+weight: -8
 provider: null
 plugin: local_tasks_block
 settings:
