@@ -26,7 +26,7 @@ display:
     display_plugin: default
     position: 0
     display_options:
-      title: ''
+      title: Galleries
       fields: {  }
       pager:
         type: full
