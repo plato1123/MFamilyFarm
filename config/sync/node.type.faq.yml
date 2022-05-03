@@ -1,7 +1,14 @@
 uuid: 752d052b-a160-43eb-bd25-af3b4f4aa58a
 langcode: en
 status: true
-dependencies: {  }
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus:
+      - main
+    parent: 'main:'
 _core:
   default_config_hash: L5fQmHilstpn-pY2na8uhk7qeWxa3Ac3x3LsBrZORQg
 name: FAQ
@@ -10,4 +17,4 @@ description: 'A frequently asked question and its answer.'
 help: ''
 new_revision: true
 preview_mode: 1
-display_submitted: true
+display_submitted: false

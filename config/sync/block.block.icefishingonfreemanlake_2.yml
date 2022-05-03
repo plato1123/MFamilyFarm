@@ -12,7 +12,7 @@ dependencies:
 id: icefishingonfreemanlake_2
 theme: open_mff
 region: footer_tel
-weight: 0
+weight: -9
 provider: null
 plugin: 'block_content:b3c76fb6-7fa8-4eec-be44-4cd5a206c13d'
 settings:

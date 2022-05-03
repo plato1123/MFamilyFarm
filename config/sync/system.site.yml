@@ -6,9 +6,9 @@ name: 'Mandigo Family Farm'
 mail: mandigofamily@mandigofamilyfarm.us
 slogan: ''
 page:
-  403: /node/10
+  403: /node/14
   404: ''
-  front: /node/14
+  front: /node/1
 admin_compact_mode: false
 weight_select_max: 100
 default_langcode: en

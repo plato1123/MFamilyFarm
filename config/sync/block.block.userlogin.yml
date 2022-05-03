@@ -3,14 +3,13 @@ langcode: en
 status: true
 dependencies:
   module:
-    - system
     - user
   theme:
     - open_mff
 id: userlogin
 theme: open_mff
-region: footer_tel
-weight: 0
+region: content
+weight: -3
 provider: null
 plugin: user_login_block
 settings:
@@ -19,10 +18,6 @@ settings:
   label_display: visible
   provider: user
 visibility:
-  request_path:
-    id: request_path
-    negate: false
-    pages: "/node/10\r\n/node/14"
   user_role:
     id: user_role
     negate: false

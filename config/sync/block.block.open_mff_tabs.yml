@@ -2,6 +2,8 @@ uuid: 8e8a0a94-784a-489d-ba51-21d53a7ff753
 langcode: en
 status: true
 dependencies:
+  module:
+    - system
   theme:
     - open_mff
 id: open_mff_tabs
@@ -17,4 +19,8 @@ settings:
   provider: core
   primary: true
   secondary: true
-visibility: {  }
+visibility:
+  request_path:
+    id: request_path
+    negate: true
+    pages: /faq-page
