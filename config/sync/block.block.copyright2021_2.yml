@@ -11,7 +11,7 @@ dependencies:
 id: copyright2021_2
 theme: open_mff
 region: footer_copyright
-weight: 0
+weight: -10
 provider: null
 plugin: 'block_content:83b47d9a-1069-464f-8f46-2c88374a011c'
 settings:

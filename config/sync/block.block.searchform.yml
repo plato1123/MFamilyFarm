@@ -1,0 +1,29 @@
+uuid: a3cc30e4-2b5d-4e5a-911e-ae1c771fa2c4
+langcode: en
+status: false
+dependencies:
+  module:
+    - search
+    - user
+  theme:
+    - open_mff
+id: searchform
+theme: open_mff
+region: footer_copyright
+weight: -9
+provider: null
+plugin: search_form_block
+settings:
+  id: search_form_block
+  label: Search
+  label_display: '0'
+  provider: search
+  page_id: ''
+visibility:
+  user_role:
+    id: user_role
+    negate: false
+    context_mapping:
+      user: '@user.current_user_context:current_user'
+    roles:
+      authenticated: authenticated
