@@ -6,6 +6,7 @@ dependencies:
     - views.view.content_recent
   module:
     - system
+    - user
     - views
   theme:
     - open_mff
@@ -27,3 +28,10 @@ visibility:
     id: request_path
     negate: true
     pages: /node/14
+  user_role:
+    id: user_role
+    negate: false
+    context_mapping:
+      user: '@user.current_user_context:current_user'
+    roles:
+      authenticated: authenticated
