@@ -20,6 +20,7 @@
     "eslint-loader": "^3.0.3",
     "html-webpack-plugin": "^3.2.0",
     "mini-css-extract-plugin": "^0.9.0",
+    "node-sass": "^7.0.0",
     "popper.js": "^1.16.0",
     "sass": "^1.24.4",
     "sass-lint": "^1.13.1",
@@ -37,7 +38,9 @@
     "webpack-merge": "^4.2.2"
   },
   "scripts": {
+    "build:scss": "node-sass -r src/scss/style.scss -o dist/css/",
     "build": "webpack --config webpack.build.js --debug --output-pathinfo",
-    "dev": "webpack --config webpack.dev.js --info-verbosity verbose"
+    "dev": "webpack --config webpack.dev.js --info-verbosity verbose",
+    "watch:scss": "npm run build:scss && node-sass --watch --source-map-embed 'src/scss/style.scss' 'dist/css/style.css'"
   }
 }
