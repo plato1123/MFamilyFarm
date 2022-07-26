@@ -1,6 +1,6 @@
 uuid: 8e8a0a94-784a-489d-ba51-21d53a7ff753
 langcode: en
-status: true
+status: false
 dependencies:
   module:
     - system
@@ -8,8 +8,8 @@ dependencies:
     - open_mff
 id: open_mff_tabs
 theme: open_mff
-region: content
-weight: -9
+region: secondary_menu
+weight: -10
 provider: null
 plugin: local_tasks_block
 settings:

@@ -15,8 +15,8 @@ regions:
   top_menu: Mobile User Menu
   mobile_menu: Mobile menu
   pre_content: Pre Content
-  split_content_left: Split Content Left
-  split_content_right: Split Content Right
+  # split_content_left: Split Content Left
+  # split_content_right: Split Content Right
   content: Content
   pre_footer: Pre Footer
   footer_info: Footer Info

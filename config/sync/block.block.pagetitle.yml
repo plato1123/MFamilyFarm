@@ -1,6 +1,6 @@
 uuid: f976d940-082c-4eda-8556-1cb50914fcee
 langcode: en
-status: true
+status: false
 dependencies:
   theme:
     - open_mff

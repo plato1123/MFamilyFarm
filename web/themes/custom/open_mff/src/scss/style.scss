@@ -2,7 +2,7 @@
 @import "init";
 
 // Bootstrap Framework (loaded from node_modules)
-@import "bootstrap/scss/bootstrap";
+@import "../../node_modules/bootstrap/scss/bootstrap.scss";
 
 // Open MFF Base Styles
 @import "base";

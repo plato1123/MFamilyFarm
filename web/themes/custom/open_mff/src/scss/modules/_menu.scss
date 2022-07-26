@@ -1,6 +1,6 @@
 // primary nav (Y Logo)
 .menu-item-home {
-  margin-left: 20px;
+  // margin-left: 20px;
   display: none;
   max-width: 150px;
 
@@ -12,33 +12,40 @@
     }
   }
 }
-.header-content {
-  box-shadow: 0px 0px 10px #000;
-  background: url(/themes/custom/open_mff/dist/img/log-cabin-sm.png) 0 48% no-repeat;
-  min-height:80px;
+
+#block-headerimage {
+  margin-top: -92px;
 }
+
+.header-content {
+  // box-shadow: 0px 0px 10px #000;
+  // background: url(/themes/custom/open_mff/dist/img/log-cabin-sm.png) 0 48% no-repeat;
+  // min-height:80px;
+}
+
 .desktop-menu {
-  .nav-global {
-    /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#1963a0+0,0d2642+100 */
-    background: rgb(25, 99, 160); /* Old browsers */
-    background: -moz-linear-gradient(top, rgba(25, 99, 160, 1) 0%, rgba(13, 38, 66, 1) 100%); /* FF3.6-15 */
-    background: -webkit-linear-gradient(
-      top,
-      rgba(25, 99, 160, 1) 0%,
-      rgba(13, 38, 66, 1) 100%
-    ); /* Chrome10-25,Safari5.1-6 */
-    background: linear-gradient(
-      to bottom,
-      rgba(25, 99, 160, 1) 0%,
-      rgba(13, 38, 66, 1) 100%
-    ); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1963a0', endColorstr='#0d2642',GradientType=0 ); /* IE6-9 */
-    nav {
-      // background: url(/themes/custom/open_mff/dist/img/log-cabin-sm.png) 0 0 no-repeat;
-    }
-  }
+
+  // .nav-global {
+  //   /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#1963a0+0,0d2642+100 */
+  //   background: rgb(25, 99, 160); /* Old browsers */
+  //   background: -moz-linear-gradient(top, rgba(25, 99, 160, 1) 0%, rgba(13, 38, 66, 1) 100%); /* FF3.6-15 */
+  //   background: -webkit-linear-gradient(
+  //     top,
+  //     rgba(25, 99, 160, 1) 0%,
+  //     rgba(13, 38, 66, 1) 100%
+  //   ); /* Chrome10-25,Safari5.1-6 */
+  //   background: linear-gradient(
+  //     to bottom,
+  //     rgba(25, 99, 160, 1) 0%,
+  //     rgba(13, 38, 66, 1) 100%
+  //   ); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  //   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1963a0', endColorstr='#0d2642',GradientType=0 ); /* IE6-9 */
+  //   nav {
+  //     // background: url(/themes/custom/open_mff/dist/img/log-cabin-sm.png) 0 0 no-repeat;
+  //   }
+  // }
   .page-head__top-menu {
-    .col-md > div {
+    .col-md>div {
       align-items: center;
       display: flex;
       justify-content: flex-end;
@@ -47,11 +54,12 @@
 }
 
 // primary nav > first level
-.page-head__main-menu .navbar > li {
-  > a,
-  > button {
+.page-head__main-menu .navbar>li {
+
+  >a,
+  >button {
     color: $white;
-    padding: 35px 0;
+    padding: 20px 0;
     text-align: center;
 
     &:hover {
@@ -68,7 +76,7 @@
   line-height: 0.85;
 }
 
-.dropdown-menu > li > a {
+.dropdown-menu>li>a {
   white-space: normal;
 }
 
@@ -89,7 +97,7 @@
   .dropdown-menu {
     background-color: $white;
     border: 1px solid $white;
-    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.175);
+    // box-shadow: 0 6px 12px rgba(0, 0, 0, 0.175);
     width: 100%;
     position: absolute;
     top: 100%;
@@ -110,14 +118,14 @@
     .nav-level-2 {
       @include cachet();
 
-      > a:hover,
-      > a:focus {
+      >a:hover,
+      >a:focus {
         text-decoration: none;
       }
     }
 
-    .dropdown-menu > li > a:focus,
-    .dropdown-menu > li > a:hover {
+    .dropdown-menu>li>a:focus,
+    .dropdown-menu>li>a:hover {
       background: none;
     }
 
@@ -125,7 +133,7 @@
       font-family: $font-family-base;
       padding-top: 25px;
 
-      > a {
+      >a {
         @include cachet(400);
         line-height: 24px;
         min-height: 34px;
@@ -148,7 +156,8 @@
   }
 
   .nav-level-2 {
-    > a {
+    >a {
+
       &:hover,
       &:focus {
         background: none;
@@ -159,9 +168,9 @@
       background-color: $white;
       box-shadow: 0 4px 0 0 $white;
 
-      > a,
-      > a:hover,
-      > a:focus {
+      >a,
+      >a:hover,
+      >a:focus {
         color: $pink;
         position: relative;
         z-index: 1001;
@@ -199,12 +208,14 @@
 
 // show/hide arrows (desktop)
 .page-head__main-menu .nav-level-2 {
+
   .fa-caret-up,
   .fa-angle-up {
     display: none;
   }
 
   &.show {
+
     .fa-caret-up,
     .fa-angle-up {
       display: inline;
@@ -221,10 +232,12 @@
   body.toolbar-vertical.with-banner {
     padding-top: 117px !important;
   }
+
   body.toolbar-vertical {
     .top-navs {
       margin-top: 39px;
       z-index: 500;
+
       &.affix {
         margin-top: 0;
       }
@@ -245,28 +258,40 @@
     @media (max-width: 769.98px) {
       margin-top: 0px;
     }
+
     // background-color: $gray-700;
     /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#1963a0+0,0d2642+100 */
-    background: rgb(25, 99, 160); /* Old browsers */
-    background: -moz-linear-gradient(top, rgba(25, 99, 160, 1) 0%, rgba(13, 38, 66, 1) 100%); /* FF3.6-15 */
-    background: -webkit-linear-gradient(
-      top,
-      rgba(25, 99, 160, 1) 0%,
-      rgba(13, 38, 66, 1) 100%
-    ); /* Chrome10-25,Safari5.1-6 */
-    background: linear-gradient(
-      to bottom,
-      rgba(25, 99, 160, 1) 0%,
-      rgba(13, 38, 66, 1) 100%
-    ); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1963a0', endColorstr='#0d2642',GradientType=0 ); /* IE6-9 */
+    // background: rgb(25, 99, 160); /* Old browsers */
+    // background: -moz-linear-gradient(top, rgba(25, 99, 160, 1) 0%, rgba(13, 38, 66, 1) 100%); /* FF3.6-15 */
+    // background: -webkit-linear-gradient(
+    //   top,
+    //   rgba(25, 99, 160, 1) 0%,
+    //   rgba(13, 38, 66, 1) 100%
+    // ); /* Chrome10-25,Safari5.1-6 */
+    // background: linear-gradient(
+    //   to bottom,
+    //   rgba(25, 99, 160, 1) 0%,
+    //   rgba(13, 38, 66, 1) 100%
+    // ); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    // filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1963a0', endColorstr='#0d2642',GradientType=0 ); /* IE6-9 */
 
     div.page-head__main-menu {
       ul.navbar {
-        & > li > a,
-        & > li > button {
+
+        &>li>a,
+        &>li>button {
+          font-weight: bold;
           color: white;
           text-shadow: 0px 0px 5px #000;
+        }
+
+        &>li>a:active,
+        &>li>a.is-active {
+          // font-weight:1000;
+          // color:#0089d0 !important;
+          color: #000 !important;
+          text-shadow: 0px 0px 5px #fff;
+          // box-shadow: 0px 0px 15px #5981ab;
         }
       }
     }
@@ -282,6 +307,7 @@
   &.user-logged-in .layout-container {
     padding-top: 0;
   }
+
   .error-page {
     margin-top: 30px;
   }
@@ -329,17 +355,18 @@
 
   // change navbar background colours when scrolling
   .top-navs {
-    background-color: rgba($primary, 0.8);
+    // background-color: rgba($primary, 0.8);
     transition: background-color 0.5s ease;
 
     @include media-breakpoint-up(lg) {
       background-color: transparent;
 
       // adjust main nav link colours
-      &:not(.affix) .page-head__main-menu .navbar > li {
-        & > a:hover,
-        &.show > a,
-        &.show > a:focus {
+      &:not(.affix) .page-head__main-menu .navbar>li {
+
+        &>a:hover,
+        &.show>a,
+        &.show>a:focus {
           color: #000;
           text-shadow: 0px 0px 5px #fff;
         }
@@ -347,7 +374,7 @@
     }
 
     &.affix {
-      background-color: $gray-700;
+      background-color: rgba(63, 97, 137, 0.9);
     }
 
     &.affix.menu-in,
@@ -357,12 +384,12 @@
   }
 }
 
-h2 {
-  // hide redundant h2 tag  //  consider doing in node.html.twig instead
-  max-height: 0px;
-  overflow: hidden;
-  margin-top: -10px;
-}
+// h2 {
+//   // hide redundant h2 tag  //  consider doing in node.html.twig instead
+//   max-height: 0px;
+//   overflow: hidden;
+//   margin-top: -10px;
+// }
 
 #toolbar-administration {
   @media (max-width: 609.98px) {

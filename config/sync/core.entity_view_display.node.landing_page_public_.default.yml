@@ -6,8 +6,45 @@ dependencies:
     - field.field.node.landing_page_public_.body
     - node.type.landing_page_public_
   module:
+    - layout_builder
     - text
     - user
+third_party_settings:
+  layout_builder:
+    enabled: true
+    allow_custom: true
+    sections:
+      -
+        layout_id: layout_onecol
+        layout_settings:
+          label: ''
+        components:
+          337d776d-38dd-46f3-9d84-13005d3e0afb:
+            uuid: 337d776d-38dd-46f3-9d84-13005d3e0afb
+            region: content
+            configuration:
+              id: 'extra_field_block:node:landing_page_public_:links'
+              label_display: '0'
+              context_mapping:
+                entity: layout_builder.entity
+            weight: 0
+            additional: {  }
+          24d2c5a2-ca98-4fe8-bf9b-23052ae4a43a:
+            uuid: 24d2c5a2-ca98-4fe8-bf9b-23052ae4a43a
+            region: content
+            configuration:
+              id: 'field_block:node:landing_page_public_:body'
+              label_display: '0'
+              context_mapping:
+                entity: layout_builder.entity
+              formatter:
+                type: text_default
+                label: hidden
+                settings: {  }
+                third_party_settings: {  }
+            weight: 1
+            additional: {  }
+        third_party_settings: {  }
 id: node.landing_page_public_.default
 targetEntityType: node
 bundle: landing_page_public_
