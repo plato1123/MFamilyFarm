@@ -52,9 +52,9 @@ content:
     weight: 10
     region: content
   links:
+    settings: {  }
+    third_party_settings: {  }
     weight: 100
     region: content
 hidden:
   comment: true
-  field_image: true
-  field_tags: true
