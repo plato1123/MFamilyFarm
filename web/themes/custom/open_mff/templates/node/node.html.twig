@@ -77,7 +77,7 @@ not node.isPublished() ? 'node--unpublished',
 view_mode ? 'node--view-mode-' ~ view_mode|clean_class,
 ]
 %}
-
+{% set createdDate = node.getCreatedTime|date('D, m/d/Y') %}
 <article{{ attributes.addClass(classes) }}>
 
   {{ title_prefix }}
@@ -96,7 +96,7 @@ view_mode ? 'node--view-mode-' ~ view_mode|clean_class,
     <footer class="node__meta">
       {{ author_picture }}
       <div{{ author_attributes.addClass('node__submitted') }}>
-        {% trans %}Submitted by {{ author_name }} on {{ date }}{% endtrans %}
+        {% trans %}Submitted by {{ author_name }} on {{ createdDate }}{% endtrans %}
         {{ metadata }}
         </div>
     </footer>
