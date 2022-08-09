@@ -1,0 +1,8 @@
+uuid: 37a77b38-d92c-4b24-a3fc-217c0ceaede4
+langcode: en
+status: true
+dependencies: {  }
+id: date_with_no_time
+label: 'Date with no time'
+locked: false
+pattern: 'D, m/d/Y'
