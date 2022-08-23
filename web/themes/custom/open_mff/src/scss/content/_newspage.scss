@@ -1,8 +1,27 @@
 .path-node {
   // news page
+  article.js-comment {
+    span {
+      text-align: right;
+    }
+    border:1px dotted lightgray;
+    padding: 10px;
+  }
+  .body {
+    margin-bottom: 15px;
+  }
+  .node__submitted {
+    font-style: italic;
+    font-size: 0.9em;
+    padding: 0px 20px 0px 0px;
+    text-align: right;
+  }
   .node__content {
     padding: 9px;
-    border: 1px dotted $dark-blue;
+    // border: 1px dotted $dark-blue;
     border-radius: 9px;
+  }
+  section h2 {
+    font-size: 1.4em;
   }
 }

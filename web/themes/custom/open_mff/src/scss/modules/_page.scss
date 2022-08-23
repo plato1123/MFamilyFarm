@@ -1,3 +1,22 @@
+.path-node .node__content {
+  border: none !important;
+}
+
+article.node--type-article {
+  margin-top: 20px;
+  margin-bottom:5px;
+  border-radius:0px 10px 0px 10px;
+  border:1px dotted lightgray;
+  padding:20px 20px 2px 20px;
+  background: #f5f5f5;
+  .node__submitted {
+    margin-bottom: 10px;
+    font-size: 0.9em;
+    font-style: italic;
+    text-align: right;
+  }
+}
+
 body.latest-news { // news page
   main {
     padding: 20px;
