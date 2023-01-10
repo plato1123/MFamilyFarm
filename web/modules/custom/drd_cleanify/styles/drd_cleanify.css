@@ -1,0 +1,21 @@
+/* Get rid of uggggly stock DRD logo */
+body.drd div .region-header::before {
+    background-image: none;
+}
+
+.page-wrapper {
+    /* background-image: url(../images/happydots.png) bottom right no-repeat; Change to motivational kitten pic later */
+    background: url(../images/happydots.png) bottom right no-repeat,
+        linear-gradient(135deg, #131313 0%, #1c1c1c 18%, #212121 48%, #111111 78%, #1e1e1e 100%) !important;
+}
+
+.views-form {
+    box-shadow: 0px 0px 5px #000;
+}
+
+div#toolbar-administration-secondary,
+div .region-meta,
+div nav #toolbar-bar,
+div nav .tabs-wrapper {
+    display: none;
+}

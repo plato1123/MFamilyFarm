@@ -1,0 +1,6 @@
+drd-cleanify:
+  version: 1.x
+  css:
+    theme:
+      styles/drd_cleanify.css: {}
+

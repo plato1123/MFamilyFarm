@@ -1,0 +1,6 @@
+name: DRD Cleanify
+type: module
+package: Kalastatus
+description: 'Tweaks to simplify and improve the Drupal Remote Dashboard pages'
+core_version_requirement: ^8.8 || ^9
+version: '9.x-1.0'

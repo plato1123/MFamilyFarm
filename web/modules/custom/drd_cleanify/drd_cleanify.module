@@ -1,0 +1,53 @@
+<?php
+
+/**
+ * Alter /programs view so that pathway entity reference can be a select list 
+ */
+
+use Drupal\Core\Form\FormStateInterface;
+
+// Attach styles
+function drd_cleanify_page_attachments(array &$page) {
+  $page['#attached']['library'][] = 'drd_cleanify/drd-cleanify';
+}
+
+
+/**
+ * Implements hook_form_FORM_ID_alter().
+ *
+ * Alters 
+ */
+
+function drd_cleanify_form_alter(&$form, FormStateInterface $form_state, $form_id) { // function to remove some unsafe options from the DRD
+  // If not the view we are looking, move on
+  if ($form['#id'] == 'views-form-drd-domain-page-1') { // Remove extraneous or insecure options from /drd/domains
+    unset($form['header']['drd_entity_actions']['action']['#options']['drd_action_php']);
+    unset($form['header']['drd_entity_actions']['action']['#options']['drd_action_user_credentials']);
+    unset($form['header']['drd_entity_actions']['action']['#options']['drd_action_database']);
+    unset($form['header']['drd_entity_actions']['action']['#options']['drd_action_download']);
+    unset($form['header']['drd_entity_actions']['action']['#options']['drd_action_blocks']);
+    unset($form['header']['drd_entity_actions']['action']['#options']['drd_action_maintenance_mode']);
+    unset($form['header']['drd_entity_actions']['action']['#options']['drd_action_domainmove']);
+    unset($form['header']['drd_entity_actions']['action']['#options']['drd_action_job_scheduler']);
+    unset($form['header']['drd_entity_actions']['action']['#options']['drd_action_cron']);
+    unset($form['header']['drd_entity_actions']['action']['#options']['drd_action_update']);
+    unset($form['header']['drd_entity_actions']['action']['#options']['drd_action_update_translations']);
+  }
+  if ($form['#id'] == 'drd-entity-action-form') { // Remove extraneous or insecure options from /drd/domains/domain/2 etc
+    unset($form['action']['#options']['drd_action_php']);
+    unset($form['action']['#options']['drd_action_user_credentials']);
+    unset($form['action']['#options']['drd_action_database']);
+    unset($form['action']['#options']['drd_action_download']);
+    unset($form['action']['#options']['drd_action_blocks']);
+    unset($form['action']['#options']['drd_action_maintenance_mode']);
+    unset($form['action']['#options']['drd_action_domainmove']);
+    unset($form['action']['#options']['drd_action_job_scheduler']);
+    unset($form['action']['#options']['drd_action_cron']);
+    unset($form['action']['#options']['drd_action_update']);
+    unset($form['action']['#options']['drd_action_update_translations']);
+  }
+}
+
+// function drd_cleanify_form_alter(&$form, FormStateInterface $form_state, $form_id) { // function to change where the Drupal Remote Dashboard admin link goes
+
+// }
