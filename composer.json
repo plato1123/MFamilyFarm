@@ -46,7 +46,7 @@
         "drupal/juicebox": "^3.0@alpha",
         "drupal/libraries": "^3.0@beta",
         "drupal/linkit": "^5",
-        "drupal/masquerade": "^2.0@beta",
+        "drupal/masquerade": "^2.0@RC",
         "drupal/metatag": "^1.13",
         "drupal/nodeaccess": "^1.1",
         "drupal/openy_carnation": "1.0.x-dev@dev",

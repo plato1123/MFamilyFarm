@@ -10,7 +10,7 @@ dependencies:
     - open_mff
 id: open_mff_user_menu
 theme: open_mff
-region: secondary_menu
+region: footer_menus
 weight: -9
 provider: null
 plugin: 'system_menu_block:account'
@@ -22,4 +22,8 @@ settings:
   level: 1
   depth: 1
   expand_all_items: false
-visibility: {  }
+visibility:
+  request_path:
+    id: request_path
+    negate: true
+    pages: /node/14
