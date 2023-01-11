@@ -1,0 +1,23 @@
+uuid: da2971db-3007-4bf4-986c-974ffc5c25ae
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.body
+    - node.type.discussionpoint
+  module:
+    - text
+id: node.discussionpoint.body
+field_name: body
+entity_type: node
+bundle: discussionpoint
+label: Body
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: true
+  required_summary: false
+field_type: text_with_summary

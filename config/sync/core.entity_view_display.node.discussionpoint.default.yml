@@ -1,0 +1,28 @@
+uuid: 0929bc13-5b33-4f25-9223-fd36054c91e4
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.discussionpoint.body
+    - node.type.discussionpoint
+  module:
+    - text
+    - user
+id: node.discussionpoint.default
+targetEntityType: node
+bundle: discussionpoint
+mode: default
+content:
+  body:
+    type: text_default
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 101
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden: {  }
