@@ -187,10 +187,12 @@
 				</div>
 			</div>
 		{% endif %}
-		<main class="clearfix">
+		<main class="clearfix first-clearfix">
+			<div class="main-inner-wrapper">
 			{% block pagecontent %}
 				{{ page.content }}
 			{% endblock %}
+			</div>
 		</main>
 
 		<div class="pre-footer">

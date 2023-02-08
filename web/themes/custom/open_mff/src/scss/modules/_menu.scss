@@ -1,3 +1,24 @@
+div.page-head__main-menu {
+  ul.navbar {
+
+    &>li>a,
+    &>li>button {
+      font-weight: bold;
+      color: white;
+      text-shadow: 0px 0px 5px #000;
+    }
+
+    &>li>a:active,
+    &>li>a.is-active,
+    &>li>a>:hover {
+      // font-weight:1000;
+      // color:#0089d0 !important;
+      color: #000 !important;
+      text-shadow: 0px 0px 5px #fff;
+      // box-shadow: 0px 0px 15px #5981ab;
+    }
+  }
+}
 // primary nav (Y Logo)
 .menu-item-home {
   // margin-left: 20px;
@@ -63,7 +84,7 @@
     text-align: center;
 
     &:hover {
-      color: $pink;
+      color: #000;
     }
   }
 }

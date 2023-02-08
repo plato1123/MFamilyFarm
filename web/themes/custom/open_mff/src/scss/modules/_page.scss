@@ -1,7 +1,12 @@
+.feed-icon {
+  padding: 20px;
+}
+
 .page-node-type-landing-page-public- {
   .form-text {
     max-width: 300px;
   }
+
   #passeye-toggle-0,
   .input-wrapper,
   #edit-submit {
@@ -19,17 +24,94 @@
   }
 }
 
+.page-node-type-directory {
+  .main-inner-wrapper {
+    .layout__region {
+      background: none;
+    }
+
+    .layout--onecol {
+      box-shadow: none !important;
+      border-radius: 0;
+      background: none;
+    }
+
+    .layout__region {
+      padding: 0;
+    }
+
+    position: relative;
+    top: 20px;
+    margin: 20px;
+    border-radius: 0px 7px;
+    box-shadow: 0px 0px 8px 0px rgb(0 0 0 / 50%);
+    background:rgba(255, 255, 255, 0.9);
+    padding: 10px;
+  }
+}
+
 .path-node .node__content {
   border: none !important;
 }
+
+.layout--onecol {
+  border-radius: 0px 7px;
+  box-shadow: 0px 0px 8px 0px rgb(0 0 0 / 50%);
+}
+
+body.Calendar {
+  .node__content {
+    padding: 0;
+    border-radius: 0px 7px;
+    box-shadow: 0px 0px 8px 0px rgb(0 0 0 / 50%);
+  }
+}
+
+.path-taxonomy main.first-clearfix {
+  // border-radius: 0px 7px;
+  // box-shadow: 0px 0px 8px 0px rgb(0 0 0 / 50%);
+  padding: 0px 20px 20px;
+
+  .main-inner-wrapper {
+    position: relative;
+    top: 20px;
+  }
+
+  .clearfix {
+    padding: 0;
+  }
+
+  #block-open-mff-content {
+    margin-top: 20px;
+    background: rgba(255, 255, 255, 0.9);
+    border-radius: 0px 7px;
+    box-shadow: 0px 0px 8px 0px rgb(0 0 0 / 50%);
+    // margin: 20px;
+    padding: 0;
+  }
+}
+
+.path-node #block-views-block-frontpage-block-1 {
+  // news page
+  box-shadow: 0px 0px 8px 0px rgb(0 0 0 / 50%);
+  border-radius: 0px 7px;
+  background: rgba(255, 255, 255, 0.9);
+  margin: 10px;
+
+  h2 {
+    padding: 15px;
+  }
+}
+
 .layout--twocol-section {
   box-shadow: 0px 0px 8px 0px rgb(0 0 0 / 50%);
   border-radius: 0px 7px;
 }
+
 .layout__region {
   background: rgba(255, 255, 255, 0.9);
   padding: 10px;
-  }
+}
 
 article.node--type-article {
   margin-top: 20px;
@@ -82,7 +164,8 @@ main {
     // background:rgba(255, 255, 255, 1);
     margin: 15px;
 
-    p, span {
+    p,
+    span {
       text-shadow: 0 0 4px white;
     }
   }
