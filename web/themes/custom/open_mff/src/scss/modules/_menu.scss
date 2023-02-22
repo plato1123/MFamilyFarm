@@ -1,16 +1,31 @@
 div.page-head__main-menu {
-  ul.navbar {
-
-    &>li>a,
-    &>li>button {
+  ul.navbar, ul#superfish-main {
+    .sf-sub-indicator {
+      height: 24px;
+      right: 30px;
+      margin-right: 3px;
+      overflow: inherit;
+      display: none;
+    }
+    &>li, , &>li:active, &li:hover, &>li ul li, &>li ul li:active, &>li ul li:hover, &>li ul li:focus {
+      background: transparent;
+    }
+    &>li>a,  ul.sf-menu.sf-style-default a,
+    &>li>button, &>li li, &>li li a {
       font-weight: bold;
       color: white;
       text-shadow: 0px 0px 5px #000;
+      padding: 0.5em 0.5em;
     }
 
-    &>li>a:active,
+    &>li>a:active, ul.sf-menu.sf-style-default a,  &>li li a:active  {
+      border: 0 none;
+      color: #13a;
+      padding: 0.5em 0.5em;
+  }
     &>li>a.is-active,
     &>li>a>:hover {
+      background: transparent !important;
       // font-weight:1000;
       // color:#0089d0 !important;
       color: #000 !important;

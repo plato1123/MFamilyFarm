@@ -61,6 +61,7 @@
         "drupal/simple_sitemap": "^3.6",
         "drupal/slick": "^2.4",
         "drupal/smtp": "^1.0",
+        "drupal/superfish": "^1.4",
         "drush/drush": "^10.6",
         "vlucas/phpdotenv": "^4.1",
         "webflo/drupal-finder": "^1.2",
