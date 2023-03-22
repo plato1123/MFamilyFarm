@@ -76,6 +76,5 @@ module:
 theme:
   bartik: 0
   seven: 0
-  openy_carnation: 0
   open_mff: 0
 profile: standard
