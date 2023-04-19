@@ -8,7 +8,7 @@ features:
   favicon: true
   node_user_picture: true
 logo:
-  path: ''
+  path: 'public://Freeman Creek Ranch Logo_0.png'
   url: ''
   use_default: false
 open_mff_camp_section_logo: {  }
