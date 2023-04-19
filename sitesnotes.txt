@@ -1,0 +1,29 @@
+Cheat sheet and site notes!
+
+Hosting:
+Digital Ocean running Ubuntu
+Site login: Check with Lonnie or Patrick or use the in-console root login below.
+
+Log in to Digital Ocean, switch to "My Team" if that that team name is not current project.
+Click on Mandigo Family Farm.
+
+Click on the droplet listed.
+
+Access for files and for SSH can be set up here.
+Note that under the "Access" section you can click on "Launch Droplet Console" to SSH into the server and have full root access to troubleshoot or reset linux user passwords.
+
+
+
+Site details:
+Drupal 9 site running under Ubuntu & Nginx.  Drupal experts: Command line commands through Drush are available.
+
+Public repository here: https://github.com/plato1123/MFamilyFarm (does not include any personal information).
+
+Theme: Bootstrap based theme in /web/custom/openy_mff
+'npm run build' to rebuild the theme and css
+When updating styles make sure you also commit the js!
+
+Backups:
+1) Most complete backup is through Digital Ocean at: https://cloud.digitalocean.com/droplets/ account # deleted /backups
+2) On-site drupal backup and migrate is taking backups of the db (less complete than host's backup above)
+
