@@ -46,3 +46,4 @@ Click save.
 Content can be listed and edited under "content"
 
 
+Email server: Iredmail partially installed
