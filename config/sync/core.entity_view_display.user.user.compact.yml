@@ -5,9 +5,12 @@ dependencies:
   config:
     - core.entity_view_mode.user.compact
     - field.field.user.user.field_address_line_1
+    - field.field.user.user.field_children
     - field.field.user.user.field_city
+    - field.field.user.user.field_father
     - field.field.user.user.field_first_name
     - field.field.user.user.field_last_name
+    - field.field.user.user.field_mother
     - field.field.user.user.field_note
     - field.field.user.user.field_phone
     - field.field.user.user.field_postal_code
@@ -37,9 +40,12 @@ content:
     region: content
 hidden:
   field_address_line_1: true
+  field_children: true
   field_city: true
+  field_father: true
   field_first_name: true
   field_last_name: true
+  field_mother: true
   field_note: true
   field_phone: true
   field_postal_code: true

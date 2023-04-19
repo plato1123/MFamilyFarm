@@ -3,7 +3,7 @@ _core:
 langcode: en
 uuid: fb8b8ed0-3b14-4288-b4e2-3c618681b0c2
 name: 'Mandigo Family Farm'
-mail: mandigofamily@mandigofamilyfarm.us
+mail: maildeliverybot@mandigofamilyfarm.us
 slogan: ''
 page:
   403: /node/14

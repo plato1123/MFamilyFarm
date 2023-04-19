@@ -1,0 +1,19 @@
+uuid: 8c46202c-b978-463b-b24e-63e5561a7d31
+langcode: en
+status: true
+dependencies:
+  module:
+    - user
+id: user.field_mother
+field_name: field_mother
+entity_type: user
+type: entity_reference
+settings:
+  target_type: user
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

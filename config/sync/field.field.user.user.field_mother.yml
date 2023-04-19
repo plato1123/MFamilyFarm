@@ -1,0 +1,30 @@
+uuid: e29fbfc9-dd44-495c-88ae-a9470781d6ab
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.user.field_mother
+  module:
+    - user
+id: user.user.field_mother
+field_name: field_mother
+entity_type: user
+bundle: user
+label: Mother
+description: 'Name of birth mother.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:user'
+  handler_settings:
+    target_bundles: null
+    sort:
+      field: _none
+      direction: ASC
+    auto_create: false
+    filter:
+      type: _none
+    include_anonymous: true
+field_type: entity_reference
