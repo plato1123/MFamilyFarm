@@ -2,19 +2,20 @@ _core:
   default_config_hash: 2v5R3I9tNatGzKQjuZWh1y_955xK09313Vn-IIuedyI
 smtp_on: true
 smtp_host: mail.mandigofamilyfarm.us
-smtp_hostbackup: mail.mandigofamilyfarm.us
+smtp_hostbackup: ''
 smtp_port: '587'
 smtp_protocol: tls
-smtp_autotls: false
+smtp_autotls: true
 smtp_timeout: 30
-smtp_username: mandigofamilyfarm@gmail.com
-smtp_password: Ncc1701D@
-smtp_from: mandigofamilyfarm@gmail.com
+smtp_username: maildeliverybot@mandigofamilyfarm.us
+smtp_password: 'yhQYuzBu8lT#'
+smtp_from: maildeliverybot@mandigofamilyfarm.us
 smtp_fromname: 'Mandigo Family Farm'
 smtp_client_hostname: ''
 smtp_client_helo: ''
 smtp_allowhtml: '0'
 smtp_test_address: ''
-smtp_debugging: true
+smtp_reroute_address: ''
+smtp_debugging: false
 prev_mail_system: php_mail
 smtp_keepalive: false
