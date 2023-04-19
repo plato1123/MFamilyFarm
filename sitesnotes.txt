@@ -27,3 +27,22 @@ Backups:
 1) Most complete backup is through Digital Ocean at: https://cloud.digitalocean.com/droplets/ account # deleted /backups
 2) On-site drupal backup and migrate is taking backups of the db (less complete than host's backup above)
 
+
+This document stored at:
+https://github.com/plato1123/MFamilyFarm/blob/master/sitesnotes.txt
+
+
+
+
+
+How to add content:
+
+Log in to the site
+Click conent->add content
+Choose the type of content you would like to add by clicking on it such as a "Basic Page (private)"
+Enter at least a title and some text.
+Click save.
+
+Content can be listed and edited under "content"
+
+
