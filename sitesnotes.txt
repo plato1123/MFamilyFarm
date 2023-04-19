@@ -1,6 +1,6 @@
 Cheat sheet and site notes!
 
-Hosting:
+1) Hosting:
 Digital Ocean running Ubuntu
 Site login: Check with Lonnie or Patrick or use the in-console root login below.
 
@@ -14,7 +14,7 @@ Note that under the "Access" section you can click on "Launch Droplet Console" t
 
 
 
-Site details:
+2) Site details:
 Drupal 9 site running under Ubuntu & Nginx.  Drupal experts: Command line commands through Drush are available.
 
 Public repository here: https://github.com/plato1123/MFamilyFarm (does not include any personal information).
@@ -37,7 +37,8 @@ https://github.com/plato1123/MFamilyFarm/blob/master/sitesnotes.txt
 
 
 
-How to add content:
+3) 
+a) How to add content:
 
 Log in to the site
 Click conent->add content
@@ -48,4 +49,7 @@ Click save.
 Content can be listed and edited under "content"
 
 
-Email server: Iredmail partially installed
+4) Email server: Iredmail installed
+
+Email address admin here: https://mail.OURDOMAIN.us/iredadmin/
+Webmail login here: https://mail.OURDOMAIN.us/mail/
