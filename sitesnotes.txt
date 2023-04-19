@@ -27,6 +27,8 @@ Backups:
 1) Most complete backup is through Digital Ocean at: https://cloud.digitalocean.com/droplets/ account # deleted /backups
 2) On-site drupal backup and migrate is taking backups of the db (less complete than host's backup above)
 
+Deployment: SSH into the site, switch to site directory, use git pull to pull updates from the repository (style changes etc).  
+May need to run composer install if there are module changes.
 
 This document stored at:
 https://github.com/plato1123/MFamilyFarm/blob/master/sitesnotes.txt
