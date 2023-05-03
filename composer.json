@@ -26,7 +26,7 @@
         "drupal/backup_migrate": "^5.0",
         "drupal/bootstrap_simple_carousel": "^1.63",
         "drupal/coffee": "^1.2",
-        "drupal/content_access": "^1.0@alpha",
+        "drupal/content_access": "2.0.x-dev@dev",
         "drupal/context": "^4.1",
         "drupal/core": "^9.0",
         "drupal/core-composer-scaffold": "^9.0.0",

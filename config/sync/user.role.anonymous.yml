@@ -8,7 +8,7 @@ dependencies:
     - comment
     - filter
     - media
-    - search
+    - system
 _core:
   default_config_hash: pq_mEIu_B4widZN7Ap81iCJSjShFFdcL0jEiCi8VrDk
 id: anonymous
@@ -16,8 +16,8 @@ label: 'Anonymous user'
 weight: 0
 is_admin: false
 permissions:
-  - 'access comments'
-  - 'access site-wide contact form'
-  - 'search content'
-  - 'use text format restricted_html'
-  - 'view media'
+  0: 'access comments'
+  1: 'access site-wide contact form'
+  3: 'use text format restricted_html'
+  4: 'view media'
+  5: 'access content'
