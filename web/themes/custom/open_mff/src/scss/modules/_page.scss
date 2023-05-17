@@ -1,3 +1,19 @@
+.links.inline li {
+  font-style: italic;
+  float: left;
+  margin-right: 25px;
+}
+
+.path-galleries h2 {
+  font-size: 1rem !important;
+  color: #000 !important;
+} 
+
+.js-comment {
+  h3 {
+    display: none; // comment title 
+  }
+}
 .feed-icon {
   padding: 20px;
 }
@@ -23,8 +39,10 @@
     margin-left: 20px;
   }
 }
-body.path-user #block-open-mff-content, .page-node-type-article #block-open-mff-content {
+body.path-user #block-open-mff-content, .page-node-type-article #block-open-mff-content, .path-galleries #block-open-mff-content .content, .path-node #block-open-mff-content .content {
   background:rgba(255, 255, 255, 0.9);
+  box-shadow: 0px 0px 8px 0px rgba(0, 0, 0, 0.5);
+  border-radius: 0px 7px;
 }
 .page-node-type-directory {
   .main-inner-wrapper {
