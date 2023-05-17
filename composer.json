@@ -22,6 +22,7 @@
         "drupal/admin_toolbar": "^2.2",
         "drupal/adminimal_theme": "^1.5",
         "drupal/advanced_help_hint": "^1.0@RC",
+        "drupal/ajax_comments": "^1.0@beta",
         "drupal/allowed_formats": "^1.2",
         "drupal/backup_migrate": "^5.0",
         "drupal/bootstrap_simple_carousel": "^1.63",

@@ -4,10 +4,14 @@ status: true
 dependencies:
   config:
     - field.field.node.gallery.body
+    - field.field.node.gallery.field_comments
     - field.field.node.gallery.field_images
     - image.style.thumbnail
     - node.type.gallery
+    - workflows.workflow.editorial
   module:
+    - comment
+    - content_moderation
     - image
     - path
     - text
@@ -29,6 +33,12 @@ content:
   created:
     type: datetime_timestamp
     weight: 10
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  field_comments:
+    type: comment_default
+    weight: 123
     region: content
     settings: {  }
     third_party_settings: {  }
