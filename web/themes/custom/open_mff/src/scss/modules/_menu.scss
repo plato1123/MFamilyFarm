@@ -336,7 +336,8 @@ div.page-head__main-menu {
   // @todo must be fixed with regions positions. This is a quick fix.
   &.user-logged-in {
     .layout-container {
-      padding-top: 140px;
+      // padding-top: 140px !important;
+      padding-top: 0 !important;
     }
   }
 
@@ -392,7 +393,7 @@ div.page-head__main-menu {
   // change navbar background colours when scrolling
   .top-navs {
     // background-color: rgba($primary, 0.8);
-    transition: background-color 0.5s ease;
+    transition: background-color 1.5s ease;
 
     @include media-breakpoint-up(lg) {
       background-color: transparent;
@@ -411,6 +412,7 @@ div.page-head__main-menu {
 
     &.affix {
       background-color: rgba(63, 97, 137, 0.9);
+      // background: linear-gradient(180deg, rgba(63,97,137,1) 0%, rgba(63,97,137,0) 100%);
     }
 
     &.affix.menu-in,

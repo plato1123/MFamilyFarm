@@ -12,6 +12,7 @@ body.toolbar-fixed {
   }
 
   .fixed-top {
+    position: static;
     top: 39px;
 
     &.mobile-sidebar {
