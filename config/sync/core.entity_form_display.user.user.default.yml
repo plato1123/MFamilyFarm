@@ -15,7 +15,7 @@ dependencies:
     - field.field.user.user.field_postal_code
     - field.field.user.user.field_state_abbreviation_
     - field.field.user.user.user_picture
-    - image.style.thumbnail
+    - image.style.medium
   module:
     - image
     - path
@@ -149,6 +149,6 @@ content:
     region: content
     settings:
       progress_indicator: throbber
-      preview_image_style: thumbnail
+      preview_image_style: medium
     third_party_settings: {  }
 hidden: {  }

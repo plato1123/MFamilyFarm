@@ -15,11 +15,10 @@ dependencies:
     - field.field.user.user.field_postal_code
     - field.field.user.user.field_state_abbreviation_
     - field.field.user.user.user_picture
-    - image.style.thumbnail
+    - image.style.large
   module:
     - image
     - layout_builder
-    - layout_discovery
     - user
 third_party_settings:
   layout_builder:
@@ -34,7 +33,7 @@ mode: default
 content:
   field_address_line_1:
     type: string
-    label: above
+    label: hidden
     settings:
       link_to_entity: false
     third_party_settings: {  }
@@ -42,7 +41,7 @@ content:
     region: content
   field_children:
     type: entity_reference_label
-    label: above
+    label: inline
     settings:
       link: true
     third_party_settings: {  }
@@ -50,7 +49,7 @@ content:
     region: content
   field_city:
     type: string
-    label: above
+    label: hidden
     settings:
       link_to_entity: false
     third_party_settings: {  }
@@ -58,7 +57,7 @@ content:
     region: content
   field_father:
     type: entity_reference_label
-    label: above
+    label: inline
     settings:
       link: true
     third_party_settings: {  }
@@ -66,7 +65,7 @@ content:
     region: content
   field_first_name:
     type: string
-    label: inline
+    label: hidden
     settings:
       link_to_entity: false
     third_party_settings: {  }
@@ -82,7 +81,7 @@ content:
     region: content
   field_mother:
     type: entity_reference_label
-    label: above
+    label: inline
     settings:
       link: true
     third_party_settings: {  }
@@ -90,14 +89,14 @@ content:
     region: content
   field_note:
     type: basic_string
-    label: above
+    label: inline
     settings: {  }
     third_party_settings: {  }
     weight: 13
     region: content
   field_phone:
     type: string
-    label: above
+    label: inline
     settings:
       link_to_entity: false
     third_party_settings: {  }
@@ -105,7 +104,7 @@ content:
     region: content
   field_postal_code:
     type: string
-    label: above
+    label: hidden
     settings:
       link_to_entity: false
     third_party_settings: {  }
@@ -113,7 +112,7 @@ content:
     region: content
   field_state_abbreviation_:
     type: string
-    label: above
+    label: hidden
     settings:
       link_to_entity: false
     third_party_settings: {  }
@@ -129,7 +128,7 @@ content:
     label: hidden
     settings:
       image_link: content
-      image_style: thumbnail
+      image_style: large
       image_loading:
         attribute: lazy
     third_party_settings: {  }
