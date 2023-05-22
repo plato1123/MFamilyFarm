@@ -13,7 +13,7 @@ dependencies:
 id: metaredirecttohome
 theme: open_mff
 region: content
-weight: -8
+weight: -11
 provider: null
 plugin: 'block_content:a845ee5d-0c05-4432-93ab-3b3120d8ae78'
 settings:

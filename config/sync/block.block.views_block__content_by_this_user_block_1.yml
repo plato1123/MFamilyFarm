@@ -1,22 +1,22 @@
-uuid: bd8a778d-44f7-408d-8f62-0081c1a9cd2c
+uuid: de3c89bf-08d1-44cd-9411-32292d9fa909
 langcode: en
 status: true
 dependencies:
   config:
-    - views.view.frontpage
+    - views.view.content_by_this_user
   module:
     - system
     - views
   theme:
     - open_mff
-id: views_block__frontpage_block_1
+id: views_block__content_by_this_user_block_1
 theme: open_mff
-region: content
-weight: -8
+region: footer_info
+weight: -6
 provider: null
-plugin: 'views_block:frontpage-block_1'
+plugin: 'views_block:content_by_this_user-block_1'
 settings:
-  id: 'views_block:frontpage-block_1'
+  id: 'views_block:content_by_this_user-block_1'
   label: ''
   label_display: visible
   provider: views
@@ -26,4 +26,4 @@ visibility:
   request_path:
     id: request_path
     negate: false
-    pages: /node/10
+    pages: '/user/*'
