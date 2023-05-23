@@ -94,10 +94,14 @@ view_mode ? 'node--view-mode-' ~ view_mode|clean_class,
 
     {% if display_submitted %}
     <footer class="node__meta">
-      {{ author_picture }}
-      <div{{ author_attributes.addClass('node__submitted') }}>
-        {% trans %}Submitted by {{ author_name }} on {{ createdDate }}{% endtrans %}
-        {{ metadata }}
+      <div class="submitted-wrapper">
+        <div{{ author_attributes.addClass('node__submitted') }}>
+          <div class="submitted-date-inner">
+            {% trans %}Submitted by {{ author_name }} on {{ createdDate }}{% endtrans %}
+            </div>
+          {{ metadata }}
+          {{ author_picture }}
+          </div>
         </div>
     </footer>
     {% endif %}
