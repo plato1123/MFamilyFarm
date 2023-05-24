@@ -55,6 +55,8 @@
   font-weight: bold;
 }
 
+
+
 // by content type ///////////////////////////////
 body .layout__region--second {
   border-radius: 0px 0px 7px !important;
@@ -160,6 +162,13 @@ body.latest-news {
   }
 }
 .page-node-type-article {
+  .node--view-mode-full {
+    h2 {
+      span {
+        display: inherit;
+      }
+    }
+  }  
   .user-picture {
     margin-top: 10px;
   }
@@ -490,6 +499,8 @@ main {
 
   img {
     box-shadow: 0px 0px 4px black;
+    max-width: 100%;
+    height: auto;
   }
 
   margin-top: 0;
