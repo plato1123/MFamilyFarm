@@ -1,0 +1,8 @@
+uuid: 5570f065-0b82-41e7-b55d-8dd5a9ecffc2
+langcode: en
+status: true
+dependencies: {  }
+name: 'Discussion Point Tags'
+vid: discussion_point_tags
+description: 'Tags for discussion points (and only discussion points)'
+weight: 0

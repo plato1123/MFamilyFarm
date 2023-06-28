@@ -4,8 +4,11 @@ status: true
 dependencies:
   config:
     - field.field.node.discussionpoint.body
+    - field.field.node.discussionpoint.field_comments
+    - field.field.node.discussionpoint.field_discussion_category
     - node.type.discussionpoint
   module:
+    - comment
     - content_moderation
     - path
     - text
@@ -29,6 +32,22 @@ content:
     weight: 10
     region: content
     settings: {  }
+    third_party_settings: {  }
+  field_comments:
+    type: comment_default
+    weight: 123
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  field_discussion_category:
+    type: entity_reference_autocomplete
+    weight: 122
+    region: content
+    settings:
+      match_operator: CONTAINS
+      match_limit: 10
+      size: 60
+      placeholder: ''
     third_party_settings: {  }
   moderation_state:
     type: moderation_state_default
