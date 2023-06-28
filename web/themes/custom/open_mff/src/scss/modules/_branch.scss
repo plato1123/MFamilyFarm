@@ -907,6 +907,22 @@ html.js {
   }
 }
 
+.path-discussion-points, .discussion-points {
+  .viewport {
+    main {
+      background: rgba(255, 255, 255, 0.95);
+    }
+  }
+  #node-discussionpoint-field-comments {
+    h2 {
+      font-size: 1em;
+    }
+  }
+  .node--view-mode-full h2 span {
+    display: inherit;
+  }
+}
+
 .node--view-mode-full {
   &.node--type-facility {
     margin-top: -20px;
