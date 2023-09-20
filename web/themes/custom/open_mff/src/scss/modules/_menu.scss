@@ -1,3 +1,19 @@
+@media screen and (max-width: 1059.98px) and (min-width: 610px) {
+  body.role-authenticated:not(.role-administrator) {
+    .navbar-nav {
+      margin-top: 30px !important;
+    }
+  }
+}
+
+@media screen and (max-width: 1059.98px) and (min-width: 768px) {
+  body.role-authenticated:not(.role-administrator) {
+    .viewport {
+      margin-top: -60px !important;
+    }
+  }
+}
+
 .mobile-menu::after {
   // margin-bottom: -500px;
 }
@@ -82,7 +98,7 @@ div.page-head__main-menu {
 // primary nav (Y Logo)
 .menu-item-home {
   // margin-left: 20px;
-  display: none;
+  display: inherit;
   max-width: 150px;
 
   @include media-breakpoint-up(lg) {
