@@ -1,6 +1,29 @@
 /**
  * Navbar styling.
  */
+@media screen and (min-width:610px) and (max-width:767.99px) {
+
+  // padding-top: 180px !important;
+  body.role-authenticated:not(.role-administrator) .h-100 {
+    margin-top: 180px;
+  }
+
+  body.role-authenticated:not(.role-administrator) .main-inner-wrapper {
+    margin-top: 500px;
+  }
+}
+
+@media screen and (min-width:768px) {
+  body.role-authenticated:not(.role-administrator) {
+    padding-top: 170px !important;
+  }
+}
+@media screen and (min-width:768px) {
+  body.role-administrator {
+    padding-top: 82px !important;
+  }
+}
+
 body {
   // Fix horizontal scrolling on iOS devices.
   // http://drupal.org/node/1870076
@@ -9,22 +32,14 @@ body {
   &.navbar-is-static-top {
     margin-top: 0;
   }
-  @media screen and (min-width:610px) and (max-width:767.99px) {
-    // padding-top: 180px !important;
-    .h-100 {
-      margin-top:180px;
-    }
-    .main-inner-wrapper {
-      margin-top: 500px;
-    }
-  }
+
   @include media-breakpoint-up(md) {
-    padding-top: 170px !important;
     margin-top: ($grid-gutter-width / 2);
   }
 
   @include media-breakpoint-up(md) {
     &.toolbar-vertical {
+
       &.navbar-is-fixed-top,
       &.navbar-is-fixed-bottom {
         .toolbar-bar {
