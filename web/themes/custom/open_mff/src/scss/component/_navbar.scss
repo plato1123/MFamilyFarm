@@ -9,8 +9,17 @@ body {
   &.navbar-is-static-top {
     margin-top: 0;
   }
-
+  @media screen and (min-width:610px) and (max-width:767.99px) {
+    // padding-top: 180px !important;
+    .h-100 {
+      margin-top:180px;
+    }
+    .main-inner-wrapper {
+      margin-top: 500px;
+    }
+  }
   @include media-breakpoint-up(md) {
+    padding-top: 170px !important;
     margin-top: ($grid-gutter-width / 2);
   }
 
