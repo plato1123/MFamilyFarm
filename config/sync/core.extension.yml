@@ -1,7 +1,6 @@
 _core:
   default_config_hash: R4IF-ClDHXxblLcG0L7MgsLvfBIMAvi_skumNFQwkDc
 module:
-  admin_content_notification: 0
   admin_toolbar: 0
   admin_toolbar_tools: 0
   ajax_comments: 0
@@ -55,6 +54,7 @@ module:
   quickedit: 0
   rdf: 0
   recaptcha: 0
+  rules: 0
   search: 0
   shortcut: 0
   slick: 0
@@ -67,6 +67,7 @@ module:
   token: 0
   toolbar: 0
   tour: 0
+  typed_data: 0
   update: 0
   user: 0
   views_ui: 0
