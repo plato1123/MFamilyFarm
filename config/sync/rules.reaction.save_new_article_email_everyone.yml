@@ -1,0 +1,51 @@
+uuid: da5a8347-1384-46c0-af18-d655db5d4fdc
+langcode: en
+status: true
+dependencies: {  }
+id: save_new_article_email_everyone
+label: 'Save new Article Email Everyone'
+events:
+  -
+    event_name: 'rules_entity_insert:node--article'
+description: ''
+tags: {  }
+config_version: '3'
+expression:
+  id: rules_rule
+  uuid: 877db0f1-3997-4324-b99e-40b5423bf191
+  weight: 0
+  conditions:
+    id: rules_and
+    uuid: 342de4ea-46ed-41ef-9406-6645f1607534
+    weight: 0
+    conditions: {  }
+  actions:
+    id: rules_action_set
+    uuid: 69123775-874e-4872-96c7-18f3b14932e2
+    weight: 0
+    actions:
+      -
+        id: rules_action
+        uuid: a35823b5-07d2-4be5-8dcf-a44d30498abc
+        weight: 0
+        action_id: rules_email_to_users_of_role
+        context_values:
+          roles:
+            - email_opted_in
+          subject: 'There''s a new article at the Mandigo Family website!'
+          message: 'There''s a new article published at the Mandigo family website at https://mandigofamilyfarm.us/latest-news'
+          reply: ''
+          language: ''
+        context_mapping: {  }
+        context_processors:
+          roles:
+            rules_tokens: {  }
+          subject:
+            rules_tokens: {  }
+          message:
+            rules_tokens: {  }
+          reply:
+            rules_tokens: {  }
+          language:
+            rules_tokens: {  }
+        provides_mapping: {  }

@@ -1,0 +1,9 @@
+uuid: a0269edb-5226-43dd-80ba-ec1c7982cb46
+langcode: en
+status: true
+dependencies: {  }
+id: email_opted_in
+label: 'Email opted in'
+weight: 5
+is_admin: null
+permissions: {  }

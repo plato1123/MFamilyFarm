@@ -1,0 +1,14 @@
+uuid: 31110888-a404-4e21-a036-77c27a1f271c
+langcode: en
+status: true
+dependencies:
+  config:
+    - user.role.email_opted_in
+  module:
+    - user
+id: user_remove_role_action.email_opted_in
+label: 'Remove the Email opted in role from the selected user(s)'
+type: user
+plugin: user_remove_role_action
+configuration:
+  rid: email_opted_in

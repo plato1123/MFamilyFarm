@@ -1,0 +1,14 @@
+uuid: ebb3e843-ddc0-43de-8b11-41ae13ddecf3
+langcode: en
+status: true
+dependencies:
+  config:
+    - user.role.email_opted_in
+  module:
+    - user
+id: user_add_role_action.email_opted_in
+label: 'Add the Email opted in role to the selected user(s)'
+type: user
+plugin: user_add_role_action
+configuration:
+  rid: email_opted_in
