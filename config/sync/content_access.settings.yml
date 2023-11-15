@@ -6,6 +6,7 @@ content_access_roles_gids:
   administrator: 3
   content_manager: 4
   management_team_member: 5
+  email_opted_in: 6
 content_access_node_type:
   page: 'a:2:{s:8:"view_own";a:2:{i:0;s:13:"authenticated";i:1;s:13:"administrator";}s:4:"view";a:2:{i:0;s:13:"authenticated";i:1;s:13:"administrator";}}'
   directory: 'a:2:{s:8:"view_own";a:2:{i:0;s:13:"authenticated";i:1;s:13:"administrator";}s:4:"view";a:2:{i:0;s:13:"authenticated";i:1;s:13:"administrator";}}'

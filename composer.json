@@ -60,6 +60,7 @@
         "drupal/redirect": "^1.6",
         "drupal/redirect_after_login": "^2.7",
         "drupal/responsive_menus": "^1.0@alpha",
+        "drupal/rules": "^3.0@alpha",
         "drupal/simple_sitemap": "^3.6",
         "drupal/slick": "^2.4",
         "drupal/smtp": "^1.0",
