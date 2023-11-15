@@ -14,6 +14,7 @@ dependencies:
     - field.field.user.user.field_note
     - field.field.user.user.field_phone
     - field.field.user.user.field_postal_code
+    - field.field.user.user.field_social_network
     - field.field.user.user.field_state_abbreviation_
     - field.field.user.user.user_picture
     - image.style.thumbnail
@@ -49,5 +50,6 @@ hidden:
   field_note: true
   field_phone: true
   field_postal_code: true
+  field_social_network: true
   field_state_abbreviation_: true
   member_for: true

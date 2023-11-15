@@ -13,13 +13,14 @@ dependencies:
     - field.field.user.user.field_note
     - field.field.user.user.field_phone
     - field.field.user.user.field_postal_code
+    - field.field.user.user.field_social_network
     - field.field.user.user.field_state_abbreviation_
     - field.field.user.user.user_picture
     - image.style.large
   module:
     - image
     - layout_builder
-    - layout_discovery
+    - link
     - user
 third_party_settings:
   layout_builder:
@@ -110,6 +111,18 @@ content:
       link_to_entity: false
     third_party_settings: {  }
     weight: 12
+    region: content
+  field_social_network:
+    type: link
+    label: inline
+    settings:
+      trim_length: 80
+      url_only: false
+      url_plain: false
+      rel: '0'
+      target: _blank
+    third_party_settings: {  }
+    weight: 17
     region: content
   field_state_abbreviation_:
     type: string

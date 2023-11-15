@@ -13,11 +13,13 @@ dependencies:
     - field.field.user.user.field_note
     - field.field.user.user.field_phone
     - field.field.user.user.field_postal_code
+    - field.field.user.user.field_social_network
     - field.field.user.user.field_state_abbreviation_
     - field.field.user.user.user_picture
     - image.style.medium
   module:
     - image
+    - link
     - path
     - user
 _core:
@@ -120,6 +122,14 @@ content:
     settings:
       size: 60
       placeholder: ''
+    third_party_settings: {  }
+  field_social_network:
+    type: link_default
+    weight: 15
+    region: content
+    settings:
+      placeholder_url: ''
+      placeholder_title: ''
     third_party_settings: {  }
   field_state_abbreviation_:
     type: string_textfield
