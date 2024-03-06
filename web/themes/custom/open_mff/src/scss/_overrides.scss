@@ -3,11 +3,21 @@ body {
   height: 100%;
   position: relative;
   margin-top: 0;
+  &.directory { // directory page
+    // tr:nth-of-type(1), tr:first-child  {
+    //   border-top: 0 !important;
+    // }
+    tr {
+      border-top: 1px solid #000;
+    }
+  }
 }
 
-ol,
+ol {
+  list-style-type: decimal;
+}
 ul {
-  list-style-type: none;
+  list-style-type: disc;
   padding-left: 1.5em;
 
   .popover &:last-child {
