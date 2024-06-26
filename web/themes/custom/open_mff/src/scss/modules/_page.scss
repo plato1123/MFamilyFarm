@@ -43,6 +43,8 @@
 }
 
 @media screen and (min-width: 768px) {  // desktop desktop
+
+
   .page-node-type-landing-page-public- {
     .footer__copyright {
       position: fixed;
@@ -581,4 +583,13 @@ main {
 #block-open-mff-content {
   padding: 20px;
   // background: rgba(0, 0, 0, 0.25);
+}
+
+.directory {
+  .content {
+    .directory {
+      max-width:100%;
+      overflow-x: scroll;
+    }
+  }
 }
