@@ -15,3 +15,9 @@ effects:
       upscale: false
     weight: 0
     uuid: ddd73aa7-4bd6-4c85-b600-bdf2b1628d1d
+  fd32d775-c549-4fda-9439-cb5746e616ce:
+    id: image_convert
+    data:
+      extension: webp
+    weight: 2
+    uuid: fd32d775-c549-4fda-9439-cb5746e616ce

@@ -872,79 +872,78 @@ display:
           row_class: ''
           default_row_class: true
           columns:
+            name: name
+            mail: mail
             field_first_name: field_first_name
             field_last_name: field_last_name
-            mail: mail
-            field_phone: field_phone
             field_address_line_1: field_address_line_1
             field_city: field_city
             field_state_abbreviation_: field_state_abbreviation_
             field_postal_code: field_postal_code
-            name: name
+            field_phone: field_phone
             field_note: field_note
-            field_social_network: field_social_network
           default: '-1'
           info:
-            field_first_name:
-              sortable: false
+            name:
+              sortable: true
               default_sort_order: asc
-              align: ''
-              separator: ''
-              empty_column: false
-              responsive: ''
-            field_last_name:
-              sortable: false
-              default_sort_order: asc
-              align: ''
+              align: views-align-left
               separator: ''
               empty_column: false
               responsive: ''
             mail:
-              sortable: false
+              sortable: true
+              default_sort_order: asc
+              align: views-align-left
+              separator: ''
+              empty_column: false
+              responsive: ''
+            field_first_name:
+              sortable: true
+              default_sort_order: asc
+              align: views-align-left
+              separator: ''
+              empty_column: false
+              responsive: ''
+            field_last_name:
+              sortable: true
+              default_sort_order: asc
+              align: views-align-left
+              separator: ''
+              empty_column: false
+              responsive: ''
+            field_address_line_1:
+              sortable: true
+              default_sort_order: asc
+              align: views-align-left
+              separator: ''
+              empty_column: false
+              responsive: ''
+            field_city:
+              sortable: true
+              default_sort_order: asc
+              align: views-align-left
+              separator: ''
+              empty_column: false
+              responsive: ''
+            field_state_abbreviation_:
+              sortable: true
+              default_sort_order: asc
+              align: views-align-left
+              separator: ''
+              empty_column: false
+              responsive: ''
+            field_postal_code:
+              sortable: true
               default_sort_order: asc
               align: ''
               separator: ''
               empty_column: false
               responsive: ''
             field_phone:
-              sortable: false
+              sortable: true
               default_sort_order: asc
-              align: ''
-              separator: ''
-              empty_column: false
-              responsive: ''
-            field_address_line_1:
-              sortable: false
-              default_sort_order: asc
-              align: ''
-              separator: ''
-              empty_column: false
-              responsive: ''
-            field_city:
-              sortable: false
-              default_sort_order: asc
-              align: ''
-              separator: ''
-              empty_column: false
-              responsive: ''
-            field_state_abbreviation_:
-              sortable: false
-              default_sort_order: asc
-              align: ''
-              separator: ''
-              empty_column: false
-              responsive: ''
-            field_postal_code:
-              sortable: false
-              default_sort_order: asc
-              align: ''
-              separator: ''
-              empty_column: false
-              responsive: ''
-            name:
-              sortable: false
-              default_sort_order: asc
-              align: ''
+              align: views-align-left
               separator: ''
               empty_column: false
               responsive: ''
@@ -955,13 +954,8 @@ display:
               separator: ''
               empty_column: false
               responsive: ''
-            field_social_network:
-              align: ''
-              separator: ''
-              empty_column: false
-              responsive: ''
           override: true
-          sticky: true
+          sticky: false
           summary: ''
           empty_table: false
           caption: ''
